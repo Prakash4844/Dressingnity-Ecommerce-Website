@@ -1,0 +1,294 @@
+/* General */
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+
+body {
+    background-color: #EDEDED;
+    padding: 0;
+    margin-top: 0px;
+}
+
+.vio-outline {
+    color: #b5a7f8 !important;
+    border-color: #b5a7f8 !important;
+}
+
+.vio-outline:hover {
+    border-color: #b5a7f8 !important;
+}
+
+
+/* Navbar-Start */
+
+.sign-in {
+    font-size: 15px;
+    border: 1px solid #7267a5;
+}
+
+.phone-icon {
+    font-size: 18px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+
+.fa-li {
+    position: relative;
+    left: 0;
+}
+
+.dropdown-item {
+    color: #707071;
+}
+
+.form-control:focus {
+    border-color: #b5a7f8;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(180, 165, 247);
+}
+
+/* Navbar-End */
+
+/* Footer Start */
+
+#phone-icon {
+    margin-left: 0;
+    font-size: 15px;
+}
+
+.dressingity_footer .widget_wrapper {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .dressingity_footer .widget_wrapper .widget {
+        margin-bottom: 40px;
+    }
+}
+
+.dressingity_footer .widget_wrapper .widget .widget_title {
+    margin-bottom: 30px;
+}
+
+.dressingity_footer .widget_wrapper .widget .widget_title h4 {
+    font-weight: bold;
+}
+
+.dressingity_footer .widget_wrapper .widget .widget_title h4:after {
+    content: "";
+    display: block;
+    background: url(../images/shape/line.png) no-repeat;
+    max-width: 38px;
+    height: 2px;
+    margin-top: 5px;
+}
+
+.dressingity_footer .widget_wrapper .widegt_about p {
+    margin-bottom: 20px;
+}
+
+.dressingity_footer .widget_wrapper .widegt_about .social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dressingity_footer .widget_wrapper .widegt_about .social li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    /* font-size: 	100px; */
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f0eaff;
+    color: #7267a5;
+    font-size: 14px;
+    -webkit-transition: all all 0.5s ease-out 0s;
+    -moz-transition: all all 0.5s ease-out 0s;
+    -ms-transition: all all 0.5s ease-out 0s;
+    -o-transition: all all 0.5s ease-out 0s;
+    transition: all all 0.5s ease-out 0s;
+}
+
+.dressingity_footer .widget_wrapper .widegt_about .social li a:hover,
+.dressingity_footer .widget_wrapper .widegt_about .social li a:focus {
+    background-image: -moz-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
+    background-image: -webkit-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
+    background-image: -ms-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
+    color: #fff;
+    box-shadow: 2.5px 4.33px 15px 0px rgba(188, 164, 245, 0.4);
+}
+
+.dressingity_footer .widget_wrapper .widget_link ul li {
+    margin-bottom: 5px;
+}
+
+.dressingity_footer .widget_wrapper .widget_link ul li a {
+    text-transform: capitalize;
+    color: #7a808d;
+}
+
+.dressingity_footer .widget_wrapper .widget_link ul li a:hover,
+.dressingity_footer .widget_wrapper .widget_link ul li a:focus {
+    /* color: #b5a7f8; */
+    color: black;
+}
+
+.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info {
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-bottom: 20px; */
+}
+
+.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
+    font-size: 15px;
+    color: #7267a5;
+    margin-right: 10px;
+}
+
+.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
+    color: #7a808d;
+}
+
+.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
+    display: block;
+}
+
+.dressingity_footer .copyright_area {
+    background: #f0eaff;
+    padding: 10px 0 0 0;
+}
+
+.dressingity_footer .copyright_area .copyright_text {
+    text-align: center;
+}
+
+.dressingity_footer .copyright_area .copyright_text p {
+    color: rgb(165, 162, 170);
+    font-weight: 100;
+    font-size: small;
+}
+
+.dressingity_footer .copyright_area .copyright_text p span {
+    color: #7a808d;
+}
+
+.dressingity_cta .cta_wrapper {
+    padding: 45px 50px 42px;
+    max-width: 970px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: -135px;
+    position: relative;
+    background-image: -moz-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
+    background-image: -webkit-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
+    background-image: -ms-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
+    box-shadow: 2.5px 4.33px 15px 0px rgba(188, 164, 245, 0.4);
+    z-index: 1;
+}
+
+.dressingity_cta .cta_wrapper:after {
+    content: "";
+    background: url(../images/shape/cta_shape.png) no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.dressingity_cta .cta_wrapper .cta_content h3 {
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .dressingity_cta .cta_wrapper .cta_content h3 {
+        font-size: 24px;
+    }
+}
+
+.dressingity_cta .cta_wrapper .cta_content h3:after {
+    content: "";
+    display: block;
+    background: url(../images/shape/line_2.png) no-repeat;
+    max-width: 110px;
+    height: 2px;
+    margin-top: 13px;
+    margin-bottom: 24px;
+}
+
+.dressingity_cta .cta_wrapper .cta_content p {
+    color: #fff;
+}
+
+.dressingity_cta .cta_wrapper .button_box {
+    float: right;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .dressingity_cta .cta_wrapper .button_box {
+        float: none;
+        text-align: left;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dressingity_cta .cta_wrapper .button_box {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+.dressingity_cta .cta_wrapper .button_box .dressingity_btn {
+    background: #fff;
+    color: #011a3e;
+}
+
+.dressingity_cta .cta_wrapper .button_box .dressingity_btn:hover,
+.dressingity_cta .cta_wrapper .button_box .dressingity_btn:focus {
+    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.dressingity_footer a {
+    text-decoration: none;
+}
+
+.footer-links :hover {
+    color: black;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.explore {
+    margin-left: 30px;
+}
+
+/* Footer-End */
