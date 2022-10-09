@@ -1,3 +1,3 @@
 # Dressingity-Navbar
 This is for Our Dressingity E-Commerce Site.
-Checkout here: TBA
+Checkout here: https://prakash4844.github.io/Dressingity-Ecommerce-Website/
