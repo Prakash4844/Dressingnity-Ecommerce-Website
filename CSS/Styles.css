@@ -9,7 +9,6 @@
     margin-right: 45px;
 }
 
-
 body {
     background-color: #EDEDED;
     padding: 0;
@@ -73,6 +72,10 @@ body {
 #phone-icon {
     margin-left: 0;
     font-size: 15px;
+}
+
+.dressingity_footer {
+    border-top: solid 1px #e3e7e9;
 }
 
 .dressingity_footer .widget_wrapper {
