@@ -40,7 +40,7 @@ h1 {
 }
 
 h1 span {
-	color: #b5a7f8;
+	color: #a83d7b;
 }
 
 h3 {
@@ -67,9 +67,9 @@ body {
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
-    background-color: #f0eaff;
-    color: #7267a5;
-    font-size: 14px;
+    background-color: #fcdcee;
+    color: #a83d7b;
+    font-size: 18px;
     -webkit-transition: all all 0.5s ease-out 0s;
     -moz-transition: all all 0.5s ease-out 0s;
     -ms-transition: all all 0.5s ease-out 0s;
@@ -79,9 +79,9 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-	background-image: -moz-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
-    background-image: -webkit-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
-    background-image: -ms-linear-gradient(0deg, #b5a7f8 0%, #b5a7f8 100%);
+	background-image: -moz-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
+    background-image: -webkit-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
+    background-image: -ms-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
     color: #fff;
     box-shadow: 2.5px 4.33px 15px 0px rgba(188, 164, 245, 0.4);
 } 
@@ -128,7 +128,7 @@ body {
     min-height: 80vh;
     position: absolute;
     background-color: white;
-    /* box-shadow: 24px 24px 30px #b5a7f8; */
+    /* box-shadow: 24px 24px 30px #a83d7b; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,26 +156,34 @@ body {
     font-size: 22px;
 }
 .text-container h1{
-    font-size: 70px;
-    margin-left: 150px;
-    padding: 20px 0px;
+    margin-left: 24%; 
+    color: #a83d7b; 
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+.text-container span{
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    color: #a83d7b;
+}
+
 .text-container a{
     text-decoration: none;
     padding: 12px;
-    margin: 50px 0px 0px 200px;
-    /* background-color: #b5a7f8; */
+    margin: 50px 0px 0px 36%;
+    /* background-color: #a83d7b; */
     border: 2px solid transparent;
-    color: #b5a7f8;
-    border: 2px solid #b5a7f8;
+    color: #a83d7b;
+    border: 2px solid #a83d7b;
     border-radius: 5px;
     transition: .3s all ease;
 }
 .text-container a:hover{
     background-color: transparent;
     color: black;
-       background-color: #b5a7f8;
-    /* border: 2px solid #b5a7f8; */
+       background-color: #a83d7b;
+    /* border: 2px solid #a83d7b; */
     
 }
 .big-box:hover {

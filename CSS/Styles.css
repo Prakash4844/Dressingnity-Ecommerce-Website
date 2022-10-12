@@ -16,13 +16,13 @@ body {
 }
 
 .vio-outline {
-    color: rgb(168,61,123) !important;
-    border-color: rgb(168,61,123) !important;
-    /* border: 2px solid rgb(168,61,123) ; */
+    color: #a83d7b !important;
+    border-color: #a83d7b !important;
+    /* border: 2px solid #a83d7b ; */
 }
 
 .vio-outline:hover {
-    border-color: rgb(168,61,123) !important;
+    border-color: #a83d7b !important;
 }
 
 
@@ -30,7 +30,7 @@ body {
 
 .sign-in {
     font-size: 15px;
-    border: 1px solid #7267a5;
+    border: 1px solid #c980aa;
 }
 
 .phone-icon {
@@ -62,7 +62,7 @@ body {
 }
 
 .form-control:focus {
-    border-color: rgb(168,61,123);
+    border-color: #a83d7b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(180, 165, 247);
 }
 
@@ -124,8 +124,8 @@ body {
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
-    background-color: #f0eaff;
-    color: #7267a5;
+    background-color: #fcdcee;
+    color: #a83d7b;
     font-size: 14px;
     -webkit-transition: all all 0.5s ease-out 0s;
     -moz-transition: all all 0.5s ease-out 0s;
@@ -136,11 +136,11 @@ body {
 
 .dressingity_footer .widget_wrapper .widegt_about .social li a:hover,
 .dressingity_footer .widget_wrapper .widegt_about .social li a:focus {
-    background-image: -moz-linear-gradient(0deg, rgb(168,61,123) 0%, rgb(168,61,123) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(168,61,123) 0%, rgb(168,61,123) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(168,61,123) 0%, rgb(168,61,123) 100%);
+    background-image: -moz-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
+    background-image: -webkit-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
+    background-image: -ms-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
     color: #fff;
-    box-shadow: 2.5px 4.33px 15px 0px rgba(188, 164, 245, 0.4);
+    box-shadow: 2.5px 4.33px 15px 0px #e088bc;
 }
 
 .dressingity_footer .widget_wrapper .widget_link ul li {
@@ -149,12 +149,12 @@ body {
 
 .dressingity_footer .widget_wrapper .widget_link ul li a {
     text-transform: capitalize;
-    color: #7a808d;
+    color: #6e7e8f;
 }
 
 .dressingity_footer .widget_wrapper .widget_link ul li a:hover,
 .dressingity_footer .widget_wrapper .widget_link ul li a:focus {
-    /* color: rgb(168,61,123); */
+    /* color: #a83d7b; */
     color: black;
 }
 
@@ -167,7 +167,7 @@ body {
 
 .dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
     font-size: 15px;
-    color: #7267a5;
+    color: #a83d7b;
     margin-right: 10px;
 }
 
@@ -205,10 +205,10 @@ body {
     margin: auto;
     margin-bottom: -135px;
     position: relative;
-    background-image: -moz-linear-gradient(0deg, rgb(168,61,123) 0%, rgb(168,61,123) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(168,61,123) 0%, rgb(168,61,123) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(168,61,123) 0%, rgb(168,61,123) 100%);
-    box-shadow: 2.5px 4.33px 15px 0px rgba(188, 164, 245, 0.4);
+    background-image: -moz-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
+    background-image: -webkit-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
+    background-image: -ms-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
+    box-shadow: 2.5px 4.33px 15px 0px rgba(245, 164, 191, 0.4);
     z-index: 1;
 }
 
@@ -271,7 +271,7 @@ body {
 
 .dressingity_cta .cta_wrapper .button_box .dressingity_btn {
     background: #fff;
-    color: #011a3e;
+    color: #013e15;
 }
 
 .dressingity_cta .cta_wrapper .button_box .dressingity_btn:hover,
