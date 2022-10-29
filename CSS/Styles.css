@@ -68,6 +68,58 @@ body {
 
 /* Navbar-End */
 
+/* home page middle sec start */
+header{
+    background-color: #dddadc;
+}
+.abc{
+    /* margin: 3%; */
+    position: relative;
+    color: #a80d65;
+
+}
+.titleMain_img{
+    position: relative;
+    height: 700px;
+}
+.main-text{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.text{
+    position: absolute;
+    top: 100px;
+    text-align: justify;
+}
+.main{
+    font-size: 1.3rem;
+    animation: aage 2s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes aage{
+    from{ padding-left: 40px;}
+    to{ padding-right: 40px;}
+    
+}
+.title-img{
+    /* padding-top: 3% ; */
+    width: 60%;
+    height: 100%;
+    image-orientation: flip;
+   margin-left: 350px;
+    position: absolute; 
+    
+}
+
+/* collections */
+
+.star{
+    color: #a80d65;
+}
+
+/* home page middle sec ens */
+
 /* Footer Start */
 
 #phone-icon {
