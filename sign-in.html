@@ -22,6 +22,7 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Styles.css -->
     <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="./Login-Form-Validation-main/Style.css">
 
 </head>
 
@@ -108,7 +109,7 @@
                         <a class="nav-link d-flex align-items-center vio-outline" href="#!"><i class="ri-notification-line"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center me-3" href="#!">
+                        <a class="nav-link d-flex align-items-center me-3" href="cart.html">
                             <i class="ri-shopping-cart-line"></i>
                         </a>
                     </li>
@@ -125,10 +126,35 @@
     </nav>
     <!-- Navbar Ends -->
 
-    <div class="none" ><img src="Images/Wave SVG.svg" alt=""></div>
+    <div class="wrapper">
+        <header>Login Form</header>
+        <form action="Home.html">
+          <div class="field email">
+            <div class="input-area">
+              <input type="text" placeholder="Email Address">
+              <i class="icon fas fa-envelope"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Email can't be blank</div>
+          </div>
+          <div class="field password">
+            <div class="input-area">
+              <input type="password" placeholder="Password">
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Password can't be blank</div>
+          </div>
+          <div class="pass-txt"><a href="#">Forgot password?</a></div>
+          <input type="submit" value="Login">
+        </form>
+        <div class="sign-txt">Not yet member? <a href="#">Signup now</a></div>
+      </div>
+    
+    <!-- <div class="none" ><img src="Images/Wave SVG.svg" alt=""></div> -->
 
-    <!-- Footer Starts -->
-    <footer class="dressingity_footer">
+     <!-- Footer Starts -->
+     <footer class="dressingity_footer">
         <div class="widget_wrapper"
             style="background-image: url(http://demo.tortoizthemes.com/deneb-html/deneb-ltr/assets/images/footer_bg.png);">
             <div class="container">
