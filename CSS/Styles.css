@@ -69,28 +69,19 @@ body {
 /* Navbar-End */
 
 /* Home page middle section start */
-#header {
- 
-  background-color: #dddadc;
+.title-sec{
+  height: 600px;
+  background-color: #FAFDD6;
+  border: 2px solid rebeccapurple;
 }
-.abc {
-  /* margin: 3%; */
-  position: relative;
-  color: #a80d65;
+#header{
+  background-color: #FAFDD6;
 }
-.titleMain_img {
-  position: relative;
-  height: 700px;
+#collection{
+  background-color: #FAFDD6;
 }
-.main-text {
-  position: absolute;
-  top: 200px;
-  left: 50px;
-}
-.text {
-  position: absolute;
-  top: 100px;
-  text-align: justify;
+#popular{
+  background-color: #FAFDD6;
 }
 .main {
   font-size: 1.3rem;
@@ -113,9 +104,7 @@ body {
   margin-left: 350px;
   position: absolute;
 }
-
 /* collections */
-
 .star {
   color: #a80d65;
 }
@@ -124,7 +113,6 @@ body {
   padding: 0.3rem 1rem 0.3rem 1rem;
   font-size: 1.3rem;
 }
-
 /* popular products */
 .popular-product{
   margin-left: 100px;
@@ -283,87 +271,6 @@ body {
 
 .dressingity_footer .copyright_area .copyright_text p span {
   color: #7a808d;
-}
-
-.dressingity_cta .cta_wrapper {
-  padding: 45px 50px 42px;
-  max-width: 970px;
-  border-radius: 15px;
-  margin: auto;
-  margin-bottom: -135px;
-  position: relative;
-  background-image: -moz-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
-  background-image: -webkit-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
-  background-image: -ms-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
-  box-shadow: 2.5px 4.33px 15px 0px rgba(245, 164, 191, 0.4);
-  z-index: 1;
-}
-
-.dressingity_cta .cta_wrapper:after {
-  content: "";
-  background: url(../images/shape/cta_shape.png) no-repeat;
-  background-position: bottom;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.dressingity_cta .cta_wrapper .cta_content h3 {
-  color: #fff;
-  font-weight: bold;
-}
-
-@media (max-width: 767px) {
-  .dressingity_cta .cta_wrapper .cta_content h3 {
-    font-size: 24px;
-  }
-}
-
-.dressingity_cta .cta_wrapper .cta_content h3:after {
-  content: "";
-  display: block;
-  background: url(../images/shape/line_2.png) no-repeat;
-  max-width: 110px;
-  height: 2px;
-  margin-top: 13px;
-  margin-bottom: 24px;
-}
-
-.dressingity_cta .cta_wrapper .cta_content p {
-  color: #fff;
-}
-
-.dressingity_cta .cta_wrapper .button_box {
-  float: right;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .dressingity_cta .cta_wrapper .button_box {
-    float: none;
-    text-align: left;
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .dressingity_cta .cta_wrapper .button_box {
-    float: none;
-    text-align: center;
-    margin-top: 30px;
-  }
-}
-
-.dressingity_cta .cta_wrapper .button_box .dressingity_btn {
-  background: #fff;
-  color: #013e15;
-}
-
-.dressingity_cta .cta_wrapper .button_box .dressingity_btn:hover,
-.dressingity_cta .cta_wrapper .button_box .dressingity_btn:focus {
-  box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
 }
 
 .dressingity_footer a {
