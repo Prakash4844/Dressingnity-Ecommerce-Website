@@ -17,6 +17,7 @@ html {
   /* scroll-snap-type: mandatory;
 	scroll-snap-points-y : repeat(100vh);
 	scroll-snap-type: y mandatory; */
+  /* Used To make Scrolling Get Snapped to Sections */
 }
 
 section {
@@ -113,14 +114,7 @@ body {
   min-height: 100vh;
   display: flex;
 }
-/* .bg-1{
-    flex: 1;
-    background-color: rgb(180, 243, 175);
-}
-.bg-2{
-    flex: 1;
-    background-color: rgb(163, 236, 240);
-} */
+
 .about-container {
   width: 85%;
   min-height: 80vh;
