@@ -69,8 +69,7 @@ body {
 
 /* Home page middle section start */
 #header {
-  /* background: url(/Images/HomePage/wallpepergirls.jpg) top/cover no-repeat; */
-  /* background: url(/Images/HomePage/wpgirls.webp) top/cover no-repeat; */
+ 
   background-color: #dddadc;
 }
 .abc {
@@ -123,6 +122,14 @@ body {
   background-color: #a80d65;
   padding: 0.3rem 1rem 0.3rem 1rem;
   font-size: 1.3rem;
+}
+
+/* popular products */
+.popular-product{
+  margin-left: 100px;
+}
+.popular-type{
+  margin-left: 100px;
 }
 
 /* Home page middle section Ends */
