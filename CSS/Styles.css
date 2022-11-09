@@ -68,41 +68,67 @@ body {
 /* Navbar-End */
 
 /* Home page middle section start */
-.title-sec{
-  height: 600px;
-  background-color: #FAFDD6;
-  border: 2px solid rebeccapurple;
-}
-#header{
-  background-color: #FAFDD6;
-}
+
 #collection{
   background-color: #FAFDD6;
 }
+
+/* mid section start*/
+
+.mid-section{
+  /* background-color: #FAFDD6; */
+  width: 100%;
+  height: 800px;
+  padding: 40px 5vw;
+}
+
+.section-item-container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 20px;
+}
+
+.section-bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.section-info{
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  display: block;
+  margin-left: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.title{
+  font-size: 60px;
+  line-height: 100px;
+}
+
+.title span{
+  color: #d5be8b;
+}
+
+.info{
+  font-family: 'lato', sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  margin-top: 30px;
+  opacity: 0.5;
+}
+/* mid section end */
 #popular{
   background-color: #FAFDD6;
 }
-.main {
-  font-size: 1.3rem;
-  animation: aage 2s linear infinite;
-  animation-direction: alternate;
-}
-@keyframes aage {
-  from {
-    padding-left: 40px;
-  }
-  to {
-    padding-right: 40px;
-  }
-}
-.title-img {
-  /* padding-top: 3% ; */
-  width: 60%;
-  height: 100%;
-  image-orientation: flip;
-  margin-left: 350px;
-  position: absolute;
-}
+
 /* collections */
 .star {
   color: #a80d65;
