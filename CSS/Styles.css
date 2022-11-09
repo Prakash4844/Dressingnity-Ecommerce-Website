@@ -284,7 +284,7 @@ body {
   color: #7a808d;
 }
 
-.dressingity_cta .cta_wrapper {
+/* .dressingity_cta .cta_wrapper {
   padding: 45px 50px 42px;
   max-width: 970px;
   border-radius: 15px;
@@ -363,7 +363,7 @@ body {
 .dressingity_cta .cta_wrapper .button_box .dressingity_btn:hover,
 .dressingity_cta .cta_wrapper .button_box .dressingity_btn:focus {
   box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
-}
+} */
 
 .dressingity_footer a {
   text-decoration: none;
