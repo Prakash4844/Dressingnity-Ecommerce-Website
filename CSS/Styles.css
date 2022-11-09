@@ -69,41 +69,49 @@ body {
 
 /* Home page middle section start */
 #header {
- 
+
   background-color: #dddadc;
 }
+
 .abc {
   /* margin: 3%; */
   position: relative;
   color: #a80d65;
 }
+
 .titleMain_img {
   position: relative;
   height: 700px;
 }
+
 .main-text {
   position: absolute;
   top: 200px;
   left: 50px;
 }
+
 .text {
   position: absolute;
   top: 100px;
   text-align: justify;
 }
+
 .main {
   font-size: 1.3rem;
   animation: aage 2s linear infinite;
   animation-direction: alternate;
 }
+
 @keyframes aage {
   from {
     padding-left: 40px;
   }
+
   to {
     padding-right: 40px;
   }
 }
+
 .title-img {
   /* padding-top: 3% ; */
   width: 60%;
@@ -118,6 +126,7 @@ body {
 .star {
   color: #a80d65;
 }
+
 .sale-btn {
   background-color: #a80d65;
   padding: 0.3rem 1rem 0.3rem 1rem;
@@ -125,10 +134,11 @@ body {
 }
 
 /* popular products */
-.popular-product{
+.popular-product {
   margin-left: 100px;
 }
-.popular-type{
+
+.popular-type {
   margin-left: 100px;
 }
 
@@ -232,36 +242,17 @@ body {
   /* margin-bottom: 20px; */
 }
 
-.dressingity_footer
-  .widget_wrapper
-  .widget_contact
-  .contact_info
-  .single_info
-  .icon {
+.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
   font-size: 15px;
   color: #a83d7b;
   margin-right: 10px;
 }
 
-.dressingity_footer
-  .widget_wrapper
-  .widget_contact
-  .contact_info
-  .single_info
-  .info
-  p
-  a {
+.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
   color: #7a808d;
 }
 
-.dressingity_footer
-  .widget_wrapper
-  .widget_contact
-  .contact_info
-  .single_info
-  .info
-  p
-  span {
+.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
   display: block;
 }
 
@@ -382,3 +373,16 @@ body {
 }
 
 /* Footer-End */
+
+
+/* Cookies Hai kya 🥲 */
+#cb-cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  border-radius: 0;
+  display: none;
+}
+/* Cookies Nhi Hai 🥲 */
