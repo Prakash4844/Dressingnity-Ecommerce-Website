@@ -384,5 +384,15 @@ body {
   z-index: 999;
   border-radius: 0;
   display: none;
+  background-color: #f8e8e7;
+}
+
+.cookie-btn {
+  background-color: #a83d7b;
+  color: white;
+}
+
+.Cookies-link {
+  color: #a80d65;
 }
 /* Cookies Nhi Hai 🥲 */
