@@ -151,31 +151,31 @@ body {
   font-size: 15px;
 }
 
-.dressingity_footer {
+.Dressingnity_footer {
   border-top: solid 1px #e3e7e9;
   background-color: #ededed;
 }
 
-.dressingity_footer .widget_wrapper {
+.Dressingnity_footer .widget_wrapper {
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 767px) {
-  .dressingity_footer .widget_wrapper .widget {
+  .Dressingnity_footer .widget_wrapper .widget {
     margin-bottom: 40px;
   }
 }
 
-.dressingity_footer .widget_wrapper .widget .widget_title {
+.Dressingnity_footer .widget_wrapper .widget .widget_title {
   margin-bottom: 30px;
 }
 
-.dressingity_footer .widget_wrapper .widget .widget_title h4 {
+.Dressingnity_footer .widget_wrapper .widget .widget_title h4 {
   font-weight: bold;
 }
 
-.dressingity_footer .widget_wrapper .widget .widget_title h4:after {
+.Dressingnity_footer .widget_wrapper .widget .widget_title h4:after {
   content: "";
   display: block;
   background: url(../images/shape/line.png) no-repeat;
@@ -184,16 +184,16 @@ body {
   margin-top: 5px;
 }
 
-.dressingity_footer .widget_wrapper .widegt_about p {
+.Dressingnity_footer .widget_wrapper .widegt_about p {
   margin-bottom: 20px;
 }
 
-.dressingity_footer .widget_wrapper .widegt_about .social li {
+.Dressingnity_footer .widget_wrapper .widegt_about .social li {
   display: inline-block;
   margin-right: 10px;
 }
 
-.dressingity_footer .widget_wrapper .widegt_about .social li a {
+.Dressingnity_footer .widget_wrapper .widegt_about .social li a {
   display: block;
   width: 30px;
   height: 30px;
@@ -211,8 +211,8 @@ body {
   transition: all all 0.5s ease-out 0s;
 }
 
-.dressingity_footer .widget_wrapper .widegt_about .social li a:hover,
-.dressingity_footer .widget_wrapper .widegt_about .social li a:focus {
+.Dressingnity_footer .widget_wrapper .widegt_about .social li a:hover,
+.Dressingnity_footer .widget_wrapper .widegt_about .social li a:focus {
   background-image: -moz-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
   background-image: -webkit-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
   background-image: -ms-linear-gradient(0deg, #a83d7b 0%, #a83d7b 100%);
@@ -220,62 +220,62 @@ body {
   box-shadow: 2.5px 4.33px 15px 0px #e088bc;
 }
 
-.dressingity_footer .widget_wrapper .widget_link ul li {
+.Dressingnity_footer .widget_wrapper .widget_link ul li {
   margin-bottom: 5px;
 }
 
-.dressingity_footer .widget_wrapper .widget_link ul li a {
+.Dressingnity_footer .widget_wrapper .widget_link ul li a {
   text-transform: capitalize;
   color: #6e7e8f;
 }
 
-.dressingity_footer .widget_wrapper .widget_link ul li a:hover,
-.dressingity_footer .widget_wrapper .widget_link ul li a:focus {
+.Dressingnity_footer .widget_wrapper .widget_link ul li a:hover,
+.Dressingnity_footer .widget_wrapper .widget_link ul li a:focus {
   /* color: #a83d7b; */
   color: black;
 }
 
-.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info {
+.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info {
   max-width: 250px;
   display: flex;
   flex-wrap: wrap;
   /* margin-bottom: 20px; */
 }
 
-.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
+.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
   font-size: 15px;
   color: #a83d7b;
   margin-right: 10px;
 }
 
-.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
+.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
   color: #7a808d;
 }
 
-.dressingity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
+.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
   display: block;
 }
 
-.dressingity_footer .copyright_area {
+.Dressingnity_footer .copyright_area {
   background: #f0eaff;
   padding: 10px 0 0 0;
 }
 
-.dressingity_footer .copyright_area .copyright_text {
+.Dressingnity_footer .copyright_area .copyright_text {
   text-align: center;
 }
 
-.dressingity_footer .copyright_area .copyright_text p {
+.Dressingnity_footer .copyright_area .copyright_text p {
   color: rgb(165, 162, 170);
   font-weight: 100;
   font-size: small;
 }
 
-.dressingity_footer .copyright_area .copyright_text p span {
+.Dressingnity_footer .copyright_area .copyright_text p span {
   color: #7a808d;
 }
 
-/* .dressingity_cta .cta_wrapper {
+/* .Dressingnity_cta .cta_wrapper {
   padding: 45px 50px 42px;
   max-width: 970px;
   border-radius: 15px;
@@ -289,7 +289,7 @@ body {
   z-index: 1;
 }
 
-.dressingity_cta .cta_wrapper:after {
+.Dressingnity_cta .cta_wrapper:after {
   content: "";
   background: url(../images/shape/cta_shape.png) no-repeat;
   background-position: bottom;
@@ -301,18 +301,18 @@ body {
   z-index: -1;
 }
 
-.dressingity_cta .cta_wrapper .cta_content h3 {
+.Dressingnity_cta .cta_wrapper .cta_content h3 {
   color: #fff;
   font-weight: bold;
 }
 
 @media (max-width: 767px) {
-  .dressingity_cta .cta_wrapper .cta_content h3 {
+  .Dressingnity_cta .cta_wrapper .cta_content h3 {
     font-size: 24px;
   }
 }
 
-.dressingity_cta .cta_wrapper .cta_content h3:after {
+.Dressingnity_cta .cta_wrapper .cta_content h3:after {
   content: "";
   display: block;
   background: url(../images/shape/line_2.png) no-repeat;
@@ -322,16 +322,16 @@ body {
   margin-bottom: 24px;
 }
 
-.dressingity_cta .cta_wrapper .cta_content p {
+.Dressingnity_cta .cta_wrapper .cta_content p {
   color: #fff;
 }
 
-.dressingity_cta .cta_wrapper .button_box {
+.Dressingnity_cta .cta_wrapper .button_box {
   float: right;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .dressingity_cta .cta_wrapper .button_box {
+  .Dressingnity_cta .cta_wrapper .button_box {
     float: none;
     text-align: left;
     margin-top: 30px;
@@ -339,24 +339,24 @@ body {
 }
 
 @media (max-width: 767px) {
-  .dressingity_cta .cta_wrapper .button_box {
+  .Dressingnity_cta .cta_wrapper .button_box {
     float: none;
     text-align: center;
     margin-top: 30px;
   }
 }
 
-.dressingity_cta .cta_wrapper .button_box .dressingity_btn {
+.Dressingnity_cta .cta_wrapper .button_box .Dressingnity_btn {
   background: #fff;
   color: #013e15;
 }
 
-.dressingity_cta .cta_wrapper .button_box .dressingity_btn:hover,
-.dressingity_cta .cta_wrapper .button_box .dressingity_btn:focus {
+.Dressingnity_cta .cta_wrapper .button_box .Dressingnity_btn:hover,
+.Dressingnity_cta .cta_wrapper .button_box .Dressingnity_btn:focus {
   box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
 } */
 
-.dressingity_footer a {
+.Dressingnity_footer a {
   text-decoration: none;
 }
 
