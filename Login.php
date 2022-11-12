@@ -121,25 +121,38 @@
 
     <div class="wrapper">
         <header>Login Form</header>
-        <form action="index.html">
+        <form action="login_query.php" method="POST">
             <div class="field email">
                 <div class="input-area Play_font">
-                    <input type="text" placeholder="Email Address">
+                    <input type="text" name="username" required="required" placeholder="Email Address">
                     <i class="icon fas fa-envelope"></i>
                     <i class="error error-icon fas fa-exclamation-circle"></i>
                 </div>
                 <div class="error error-txt Play_font">Email can't be blank</div>
             </div>
+
             <div class="field password">
                 <div class="input-area Play_font">
-                    <input type="password" placeholder="Password">
+                    <input type="password" required="required" name="password" placeholder="Password">
                     <i class="icon fas fa-lock"></i>
                     <i class=" Play_font error error-icon fas fa-exclamation-circle"></i>
                 </div>
                 <div class="error error-txt Play_font">Password can't be blank</div>
             </div>
-            <div class="pass-txt Play_font"><a href="#">Forgot password?</a></div>
-            <input type="submit" value="Login">
+            <?php
+					//checking if the session 'error' is set. Erro session is the message if the 'Username' and 'Password' is not valid.
+					if(ISSET($_SESSION['error'])){
+				?>
+				<!-- Display Login Error message -->
+					<div class="alert alert-danger"><?php echo $_SESSION['error']?></div>
+				<?php
+					//Unsetting the 'error' session after displaying the message. 
+					session_unset($_SESSION['error']);
+					}
+				?>
+
+            <!-- <div class="pass-txt Play_font"><a href="#">Forgot password?</a></div> -->
+            <input type="submit" name="login" value="Login">
         </form>
         <div class="sign-txt Play_font">Not yet member? <a href="Register.php">Register now</a></div>
     </div>
