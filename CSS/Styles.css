@@ -68,11 +68,24 @@ body {
 /* Navbar-End */
 
 /* Home page middle section start */
-
+/* header section.... */
+.carousel-item{
+height: 80vh;
+}
+/* Collections start */
 #collection{
   background-color:    #FFEEEE  ;
 }
 
+.collection-btn a{
+  text-decoration: none;
+  color: black;
+}
+.collection-btn :hover{
+background-color:#c94d95;
+}
+
+/* Collections end */
 /* special start*/
 
 .mid-section{
@@ -131,18 +144,6 @@ body {
 #popular{
   background-color:    #FFEEEE  ;
 }
-
-/* collections */
-.star {
-  color: #a80d65;
-}
-
-.sale-btn {
-  background-color: #a80d65;
-  padding: 0.3rem 1rem 0.3rem 1rem;
-  font-size: 1.3rem;
-}
-
 
 /* blog for  offers start */
 #offers{
