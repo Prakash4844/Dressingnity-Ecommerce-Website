@@ -99,13 +99,14 @@ body {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.special-img:hover img{
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
-}
 
-/* special end*/
+.info{
+  font-family: 'lato', sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+  margin-top: 30px;
+  opacity: 0.5;
+}
 
 
 #popular{
