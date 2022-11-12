@@ -70,60 +70,41 @@ body {
 /* Home page middle section start */
 
 #collection{
-  background-color: #FAFDD6;
+  background-color:    #FFEEEE  ;
 }
 
-/* mid section start*/
+/* special start*/
 
-.mid-section{
-  /* background-color: #FAFDD6; */
-  width: 100%;
-  height: 800px;
-  padding: 40px 5vw;
+#special{
+  background-color:    #FFEEEE  ;
+}
+.btn-add{
+  background-color: #a80d65;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  font-size: 1.3rem;
+}
+#special-m{
+  background-color:    #FFEEEE  ;
+}
+.special-img span{
+  top: 20px;
+  right: 20px;
+}
+.special-list .btn{
+  padding: 8px 20px!important;
 }
 
-.section-item-container{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  padding: 20px;
-  }
-
-.section-bg{
-  width: 100%;
-  height: 100%;
-} 
-
-.main-text {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-}
-
-.section-info{
-  width: 50%;
-  height: 100%;
-  background: #fff;
-  display: block;
-  margin-left: auto;
-  padding: 50px;
-  text-align: center;
-}
-
-.title{
-  font-size: 60px;
-  line-height: 100px;
-}
-
-.title span{
-  color: #d5be8b;
+.special-img img{
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 
-/* mid section end */
+
+
 #popular{
-  background-color: #FAFDD6;
+  background-color:    #FFEEEE  ;
 }
 
 /* collections */
@@ -137,6 +118,25 @@ body {
   font-size: 1.3rem;
 }
 
+
+/* blog for  offers start */
+#offers{
+  background: url(/Images/HomePage/img2.jpg) center/cover no-repeat;
+}
+#offers .row{
+  min-height: 80vh;
+}
+.offers-content span{
+  font-size: 28px;
+}
+.offers-content h2{
+  font-size: 60px;
+  font-family: var(--lg-font);
+}
+.offers-content .btn{
+  border-color: transparent!important;
+}
+/* end of offers blog */
 /* popular products */
 
 .popular-product {
