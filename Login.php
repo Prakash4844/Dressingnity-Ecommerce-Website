@@ -141,7 +141,7 @@
             <div class="pass-txt Play_font"><a href="#">Forgot password?</a></div>
             <input type="submit" value="Login">
         </form>
-        <div class="sign-txt Play_font">Not yet member? <a href="#">Signup now</a></div>
+        <div class="sign-txt Play_font">Not yet member? <a href="Register.php">Register now</a></div>
     </div>
 
     <!-- Footer Starts -->

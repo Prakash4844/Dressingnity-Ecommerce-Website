@@ -1,31 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<?php 
+//starting the session
+session_start();
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dressingnity FAQ</title>
+    <title>Dressingnity Sign-in</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Bootstrap JS Bundle
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script> -->
     <!-- RemixIcon CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!-- Google Fonts CDN -->
-
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Styles.css -->
     <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="CSS/Login.css">
 
 </head>
-
-<body>
     <!-- Navbar Starts -->
     <nav class="shadow sticky-top ms-1 me-1 rounded-bottom navbar navbar-expand-lg navbar-light bg-light">
         <!-- Container wrapper -->
@@ -123,221 +118,71 @@
         <!-- Container wrapper -->
     </nav>
     <!-- Navbar Ends -->
-   
-    <div class="container">
-        <div class="py-5 text-center">
 
-            <h2>Checkout form</h2>
 
+	<div class="wrapper">
+	<header>Registration Form</header>
+        <!-- <form action="Login.php"> -->
+		<!-- Registration Form start -->
+		<form method="POST" action="save_member.php">
+
+		<div class="field email">
+                <div class="input-area Play_font">
+                    <input type="text" placeholder="Email Address" required="required" name="username">
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt Play_font">Email can't be blank</div>
         </div>
 
-        <div class="row">
-            <div class="col-md-4 order-md-2 mb-4">
-                <h4 class="d-flex justify-content-between align-items-center mb-3">
-                    <span class="text-muted">Your cart</span>
-                    <span class="badge badge-secondary badge-pill">3</span>
-                </h4>
-                <ul class="list-group mb-3">
-                    <li class="list-group-item d-flex justify-content-between lh-condensed">
-                        <div>
-                            <h6 class="my-0">Product name</h6>
-                            <small class="text-muted">Brief description</small>
-                        </div>
-                        <span class="text-muted">$12</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between lh-condensed">
-                        <div>
-                            <h6 class="my-0">Second product</h6>
-                            <small class="text-muted">Brief description</small>
-                        </div>
-                        <span class="text-muted">$8</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between lh-condensed">
-                        <div>
-                            <h6 class="my-0">Third item</h6>
-                            <small class="text-muted">Brief description</small>
-                        </div>
-                        <span class="text-muted">$5</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between bg-light">
-                        <div class="text-success">
-                            <h6 class="my-0">Promo code</h6>
-                            <small>EXAMPLECODE</small>
-                        </div>
-                        <span class="text-success">-$5</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                        <span>Total (USD)</span>
-                        <strong>$20</strong>
-                    </li>
-                </ul>
-
-                <form class="card p-2">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Promo code">
-                        <div class="input-group-append">
-                            <button type="submit" class="btn btn-secondary">Redeem</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-8 order-md-1">
-                <h4 class="mb-3">Billing address</h4>
-                <form class="needs-validation mb-lg-4" novalidate="">
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="firstName">First name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-                            <div class="invalid-feedback">
-                                Valid first name is required.
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="lastName">Last name</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-                            <div class="invalid-feedback">
-                                Valid last name is required.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="username">Username</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">@</span>
-                            </div>
-                            <input type="text" class="form-control" id="username" placeholder="Username" required="">
-                            <div class="invalid-feedback" style="width: 100%;">
-                                Your username is required.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
-                        <div class="invalid-feedback">
-                            Please enter a valid email address for shipping updates.
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="address">Address</label>
-                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-                        <div class="invalid-feedback">
-                            Please enter your shipping address.
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
-                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-5 mb-3">
-                            <label for="country">Country</label>
-                            <select class="custom-select d-block w-100" id="country" required="">
-                                <option value="">Choose...</option>
-                                <option>United States</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid country.
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <label for="state">State</label>
-                            <select class="custom-select d-block w-100" id="state" required="">
-                                <option value="">Choose...</option>
-                                <option>California</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please provide a valid state.
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="zip">Zip</label>
-                            <input type="text" class="form-control" id="zip" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Zip code required.
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="mb-4">
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="same-address">
-                        <label class="custom-control-label" for="same-address">Shipping address is the same as my
-                            billing address</label>
-                    </div>
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="save-info">
-                        <label class="custom-control-label" for="save-info">Save this information for next time</label>
-                    </div>
-                    <hr class="mb-4">
-
-                    <h4 class="mb-3">Payment</h4>
-
-                    <div class="d-block my-3">
-                        <div class="custom-control custom-radio">
-                            <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked=""
-                                required="">
-                            <label class="custom-control-label" for="credit">Credit card</label>
-                        </div>
-                        <div class="custom-control custom-radio">
-                            <input id="debit" name="paymentMethod" type="radio" class="custom-control-input"
-                                required="">
-                            <label class="custom-control-label" for="debit">Debit card</label>
-                        </div>
-                        <div class="custom-control custom-radio">
-                            <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input"
-                                required="">
-                            <label class="custom-control-label" for="paypal">Paypal</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="cc-name">Name on card</label>
-                            <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-                            <small class="text-muted">Full name as displayed on card</small>
-                            <div class="invalid-feedback">
-                                Name on card is required
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="cc-number">Credit card number</label>
-                            <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Credit card number is required
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 mb-3">
-                            <label for="cc-expiration">Expiration</label>
-                            <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Expiration date required
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="cc-expiration">CVV</label>
-                            <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-                            <div class="invalid-feedback">
-                                Security code required
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="mb-4">
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
-                </form>
-            </div>
+        <div class="field password">
+                <div class="input-area Play_font">
+                    <input type="password" name="password" required="required" placeholder="Password">
+                    <i class="icon fas fa-lock"></i>
+                    <i class=" Play_font error error-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <div class="error error-txt Play_font">Password can't be blank</div>
         </div>
 
+		<div class="field firstname">
+                <div class="input-area Play_font">
+                    <input type="text" name="firstname" required="required" placeholder="FirstName">
+                    <i class="icon fa fa-user-plus" aria-hidden="true"></i>
+                    <i class=" Play_font error error-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <div class="error error-txt Play_font">First Name can't be blank</div>
+        </div>
 
-    </div>
+		<div class="field lastname">
+                <div class="input-area Play_font">
+                    <input type="text" name="lastname" required="required" placeholder="Last Name">
+                    <i class="icon fa fa fa-user-plus" aria-hidden="true"></i>
+                    <i class=" Play_font error error-icon fas fa-exclamation-circle" aria-hidden="true"></i>
+                </div>
+                <div class="error error-txt Play_font">Last Name can't be blank</div>
+        </div>
+		<?php
+					//checking if the session 'success' is set. Success session is the message that the credetials are successfully saved.
+					if(ISSET($_SESSION['success'])){
+				?>
+				<!-- Display registration success message -->
+				<div class="alert alert-success"><?php echo $_SESSION['success']?></div>
+				<?php
+					//Unsetting the 'success' session after displaying the message. 
+					unset($_SESSION['success']);
+					}
+				?>
+		
+            <!-- <div class="pass-txt Play_font"><a href="#">Forgot password?</a></div> -->
+            <input name="register" type="submit" value="Register">
+			<!-- Link for redirecting to Login Page -->
+			<a href="login.php">Already a member? Log in here...</a>
 
-    <!-- Footer Starts -->
+        </form>
+
+	</div>
+
+	<!-- Footer Starts -->
     <footer class="Dressingnity_footer">
         <div class="widget_wrapper"
             style="background-image: url(http://demo.tortoizthemes.com/deneb-html/deneb-ltr/assets/images/footer_bg.png);">
@@ -370,6 +215,7 @@
                                 <li><a href="FAQ.html">F&Q</a></li>
                                 <li><a href="Terms&Conditions.html">Terms & Conditions</a></li>
                                 <li><a href="sitemap.xml">Sitemap</a></li>
+                                <li><a href="index.html">Home</a></li>
                             </ul>
                         </div>
                     </div>
@@ -447,6 +293,7 @@
         </div>
     </footer>
     <!--Footer Ends-->
+
     <!-- Cookie Banner -->
     <div id="cb-cookie-banner" class="rounded-3 shadow-sm alert alert-dark text-center mb-0" role="alert">
         🍪 This website uses cookies to ensure you get the best experience on our website.
@@ -468,5 +315,4 @@
     <!-- Custom JS -->
 
 </body>
-
 </html>
