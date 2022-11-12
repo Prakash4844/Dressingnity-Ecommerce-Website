@@ -70,10 +70,10 @@ body {
 /* Home page middle section start */
 
 #collection{
-  background-color: #FAFDD6;
+  background-color:    #FFEEEE  ;
 }
 
-/* mid section start*/
+/* special start*/
 
 .mid-section{
   /* background-color: #FAFDD6; */
@@ -119,11 +119,17 @@ body {
 .title span{
   color: #d5be8b;
 }
+.special-img:hover img{
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/* special end*/
 
 
-/* mid section end */
 #popular{
-  background-color: #FAFDD6;
+  background-color:    #FFEEEE  ;
 }
 
 /* collections */
@@ -137,6 +143,25 @@ body {
   font-size: 1.3rem;
 }
 
+
+/* blog for  offers start */
+#offers{
+  background: url(/Images/HomePage/img2.jpg) center/cover no-repeat;
+}
+#offers .row{
+  min-height: 80vh;
+}
+.offers-content span{
+  font-size: 28px;
+}
+.offers-content h2{
+  font-size: 60px;
+  font-family: var(--lg-font);
+}
+.offers-content .btn{
+  border-color: transparent!important;
+}
+/* end of offers blog */
 /* popular products */
 
 .popular-product {
