@@ -49,7 +49,7 @@
                             <ul class="dropdown-menu dropdown-menu-light" style="margin-top: 17px;">
                                 <!-- Try to Fix Dropdown position by removing inline CSS -->
                                 <li>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="#collection">
                                         <i class="ri-genderless-line"></i> All</a>
                                 </li>
                                 <li>
@@ -57,11 +57,11 @@
                                 </li>
 
                                 <li>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="special-m">
                                         <i class="ri-t-shirt-2-line"></i> Men</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">
+                                    <a class="dropdown-item" href="special">
                                         <i class="ri-t-shirt-line"></i> Women</a>
                                 </li>
                             </ul>
@@ -79,18 +79,18 @@
                         <ul class="dropdown-menu dropdown-menu-light" style="margin-top: 15px;">
                             <!-- Try to Fix Dropdown position by removing inline CSS -->
                             <li>
-                                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                                <a class="dropdown-item" href="#collection"><span class="fa-li pe-2"><i
                                             class="ri-genderless-line"></i></span>All</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                                <a class="dropdown-item" href="#special-m"><span class="fa-li pe-2"><i
                                             class="ri-t-shirt-2-line"></i></span>Men</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                                <a class="dropdown-item" href="#special"><span class="fa-li pe-2"><i
                                             class="ri-t-shirt-line"></i></span>Women</a>
                             </li>
                             <li>
@@ -128,24 +128,40 @@
     <!-- ******************************************************************************************************************************* -->
 
     <!-- header -->
- 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/Images/HomePage/img3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/Images/HomePage/sliderimg1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>First slide label</h1>
+              <p class="fs-5">Some representative placeholder content for the first slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img src="/Images/HomePage/wallpepergirls.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Second slide label</h1>
+              <p class="fs-5">Some representative placeholder content for the second slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="/Images/HomePage/img1.jpg" class="d-block w-100" alt="...">
+            <img src="/Images/HomePage/sliderimg3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Third slide label</h1>
+              <p class="fs-5">Some representative placeholder content for the third slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -162,11 +178,11 @@
             </div>
 
             <div class="row g-0">
-                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
-                    <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*"><a href = "#collection" class = "btn   mt-3">All</a></button>
-                    <button type="button" class="btn m-2 text-dark" data-filter=".best"><a href = "#special" class = "btn   mt-3">Female Section</a></button>
-                    <button type="button" class="btn m-2 text-dark" data-filter=".feat"><a href = "#special-m" class = "btn   mt-3">Male Section</a></button>
-                    <button type="button" class="btn m-2 text-dark" data-filter=".new"><a href = "#popular" class = "btn   mt-3">Products</a></button>
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group collection-btn">
+                    <button type="button" class="btn m-2 text-dark  active-filter-btn" data-filter="*"><a class="fs-4 " href = "#collection" class = "btn   mt-3">All</a></button>
+                    <button type="button" class="btn m-2 text-dark " data-filter=".best"><a class="fs-4 " href = "#special" class = "btn   mt-3">Female Section</a></button>
+                    <button type="button" class="btn m-2 text-dark " data-filter=".feat"><a class="fs-4 " href = "#special-m" class = "btn   mt-3">Male Section</a></button>
+                    <button type="button" class="btn m-2 text-dark " data-filter=".new"><a class="fs-4 " href = "#popular" class = "btn   mt-3">Products</a></button>
                 </div>
 
                 <div class="collection-list mt-4 row gx-0 gy-3">
@@ -175,17 +191,9 @@
                             <p><a href="Products.html"><img
                                         src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center ">sale</span>
                             </div>
                             <div class = " text-center">
-                                    <div class="rating mt-3">
-                                        <span class="star"><i class="fas fa-star"></i></span>
-                                        <span class="star"><i class="fas fa-star"></i></span>
-                                        <span class="star"><i class="fas fa-star"></i></span>
-                                        <span class="star"><i class="fas fa-star"></i></span>
-                                        <span class="star"><i class="fas fa-star"></i></span>
-                                    </div>
+                                    
                                     <p class="text-capitalize my-1">gray shirt</p>
                                     <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -196,17 +204,10 @@
                             <p><a href="Products.html"><img
                                         src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center">sale</span>
+                               
                         </div>
                         <div class="text-center">
-                            <div class="rating mt-3">
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                            </div>
+                            
                             <p class="text-capitalize my-1">gray shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -217,17 +218,10 @@
                             <p><a href="Products.html"><img
                                         src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center">sale</span>
+                              
                         </div>
                         <div class="text-center">
-                            <div class="rating mt-3">
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                            </div>
+                        
                             <p class="text-capitalize my-1">gray shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -238,17 +232,10 @@
                             <p><a href="Products.html"><img
                                         src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center">sale</span>
+                               
                         </div>
                         <div class="text-center">
-                            <div class="rating mt-3">
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                            </div>
+                           
                             <p class="text-capitalize my-1">gray shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -259,17 +246,10 @@
                             <p><a href="Products.html"><img
                                         src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center">sale</span>
+                               
                         </div>
                         <div class="text-center">
-                            <div class="rating mt-3">
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                            </div>
+                            
                             <p class="text-capitalize my-1">gray shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -280,17 +260,10 @@
                             <p><a href="Products.html"><img
                                         src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center">sale</span>
+                                
                         </div>
                         <div class="text-center">
-                            <div class="rating mt-3">
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                            </div>
+                           
                             <p class="text-capitalize my-1">gray shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -301,18 +274,10 @@
                             <p><a href="Products.html"><img
                                         src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""  ></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center">sale</span>
+                               
                         </div>
                         <div class="text-center">
-                            <div class="rating mt-3">
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                            </div>
-
+                        
                             <p class="text-capitalize my-1">gray shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -323,17 +288,9 @@
                             <p><a href="Products.html">
                                 <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
                                         class="w-100 alt=""></a></p>
-                                <span class = " sale-btn position-absolute rounded-1 text-white d-flex
-                                        align-items-center justify-content-center">sale</span>
+                             
                         </div>
                         <div class="text-center">
-                            <div class="rating mt-3">
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                                <span class="star"><i class="fas fa-star"></i></span>
-                            </div>
                             <p class="text-capitalize my-1">gray shirt</p>
                             <span class="fw-bold">$ 45.50</span>
                         </div>
@@ -362,7 +319,7 @@
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white mt-3">Add to Cart</a>
+                        <a href = "#" class = "btn btn-add rounded-3 text-white mt-3"> Cart </a>
                     </div>
                 </div>
 
@@ -374,7 +331,7 @@
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3">Add to Cart</a>
+                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
                     </div>
                 </div>
 
@@ -386,7 +343,7 @@
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3">Add to Cart</a>
+                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
                     </div>
                 </div>
 
@@ -398,7 +355,7 @@
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3">Add to Cart</a>
+                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
                     </div>
                 </div>
             </div>
@@ -424,7 +381,7 @@
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3">Add to Cart</a>
+                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
                 </div>
             </div>
 
@@ -436,7 +393,7 @@
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3">Add to Cart</a>
+                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
                 </div>
             </div>
 
@@ -448,7 +405,7 @@
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3">Add to Cart</a>
+                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
                 </div>
             </div>
 
@@ -460,7 +417,7 @@
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3">Add to Cart</a>
+                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
                 </div>
             </div>
         </div>
