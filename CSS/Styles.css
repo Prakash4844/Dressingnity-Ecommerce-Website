@@ -74,7 +74,7 @@ height: 80vh;
 }
 /* Collections start */
 #collection{
-  background-color:    #FFEEEE  ;
+  background-color: #FFF  ;
 }
 
 .collection-btn a{
@@ -82,20 +82,21 @@ height: 80vh;
   color: black;
 }
 .collection-btn :hover{
-background-color:#c94d95;
+color:#a80d65;
 }
 
 /* Collections end */
 /* special start*/
 
 #special{
-  background-color:    #FFEEEE  ;
+  background-color:    #FFEEEE;
+  
 }
 .btn-add{
  background-color:#a83d7b
 }
 #special-m{
-  background-color:    #FFEEEE  ;
+  background-color:#FFF ;
 }
 .special-img span{
   top: 20px;
@@ -112,12 +113,53 @@ background-color:#c94d95;
 }
 
 #popular{
-  background-color:    #FFEEEE  ;
+  background-color:    #FFf  ;
 }
+
+/* testimonial section */
+#testimonials{
+  padding:7% 15%;
+  background-color:#a83d7b;
+  text-align: center;
+  color: #fff;
+  height: 80vh;
+}
+.testimonial-image{
+  width: 40%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #a83d7b;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+  /* padding: 5px; */ 
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#pricing p{
+  font-size: 1.5rem;
+}
+.card-body{
+  background-color: #bebebe;
+ 
+}
+/* Testimonials end */
 
 /* blog for  offers start */
 #offers{
   background: url(/Images/HomePage/img2.jpg) center/cover no-repeat;
+  position: relative;
+  height: 610px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #offers .row{
   min-height: 80vh;
@@ -127,7 +169,6 @@ background-color:#c94d95;
 }
 .offers-content h2{
   font-size: 60px;
-  font-family: var(--lg-font);
 }
 .offers-content .btn{
   border-color: transparent!important;
