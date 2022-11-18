@@ -5,7 +5,11 @@
 
 
 
-Checkout here: [Dressingnity](https://prakash4844.github.io/Dressingnity-Ecommerce-Website/)
+Checkout Static version here: [Dressingnity](https://prakash4844.github.io/Dressingnity-Ecommerce-Website/)
+Static Site is built on HTML, CSS, Bootstarp, JS
+
+Checkout Login Support with Database version here: [Dressingnity](http://dressingnity.rf.gd/)
+This Version use all the technology of Static Site with PHP and SQLite for Backend.
 
 <!-- Website Visitor -->
 <p align="center"><img align="center" src="https://visitor-badge.glitch.me/badge?page_id=sagargoswami2001.sagargoswami2001" /></p>
