@@ -16,6 +16,9 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Styles.css -->
     <link rel="stylesheet" href="CSS/Styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/Images/SVG Samples/Dressingnity SVG.svg">
 </head>
 
 <body>

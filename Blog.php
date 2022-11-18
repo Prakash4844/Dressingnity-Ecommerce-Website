@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="CSS/Styles.css">
     <link rel="stylesheet" href="CSS/Blog.css">
 
+    <!-- Favicon -->
+    <link rel="icon" href="images/Images/SVG Samples/Dressingnity SVG.svg">
+
 </head>
 
 <body>
