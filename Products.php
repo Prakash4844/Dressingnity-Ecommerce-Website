@@ -26,7 +26,7 @@
 <body>
     <!-- Navbar Starts -->
     <?php
-        include('Partials\Navbar.html')
+        include('/home/zaphkill/Documents/Github/Dressingnity-Ecommerce-Website/Partials/Navbar.html')
     ?>
     <!-- Navbar Ends -->
 
@@ -35,7 +35,7 @@
 
     <!-- Footer Starts -->
     <?php
-        include('Partials\Footer.html')
+        include('/home/zaphkill/Documents/Github/Dressingnity-Ecommerce-Website/Partials/Footer.html')
     ?>
     <!--Footer Ends-->
 
