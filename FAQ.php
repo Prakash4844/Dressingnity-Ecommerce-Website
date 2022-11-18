@@ -27,7 +27,7 @@
 <body>
     <!-- Navbar Starts -->
     <?php
-        include('/home/zaphkill/Documents/Github/Dressingnity-Ecommerce-Website/Partials/Navbar.html')
+        include('Partials/Navbar.html')
     ?>
     <!-- Navbar Ends -->   
 
@@ -108,13 +108,13 @@
     
     <!-- Footer Starts -->
     <?php
-        include('/home/zaphkill/Documents/Github/Dressingnity-Ecommerce-Website/Partials/Footer.html')
+        include('Partials/Footer.html')
     ?>
     <!--Footer Ends-->
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials\Cookies.html')
+    include('Partials/Cookies.html')
     ?>
     <!-- End of Cookie Banner -->
 
