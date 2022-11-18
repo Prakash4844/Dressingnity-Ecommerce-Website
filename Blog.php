@@ -39,19 +39,19 @@
 
     <div class="card mb-3 container blog-page shadow-sm">
         <img class="card-img-top" src="Images/SVG Samples/Dressingnity (LOGO-final).svg" alt="Card image cap">
-        <div class="card-body">
+        <div class="card-body" style="background-color: white;">
             <h1>What is "Dressingnity"? and How it came to be?</h1>
             <p class="card-text">The History of Dressingnity.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 
             <p class="card-text">The Complete history of Dressingnity.</p>
 
-            <p class="Text-Content">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
                 fermentum massa justo sit
                 amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget
                 risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Integer posuere erat
                 a ante venenatis dapibus posuere velit aliquet.</p>
-            <p class="Text-Content">Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus
+            <p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus
                 posuere velit aliquet.
                 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
                 justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque

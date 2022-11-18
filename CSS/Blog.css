@@ -14,7 +14,8 @@ h1 {
 }
 
 .Text-Content {
-    color: #6c757d;
+    /* color: #6c757d; */
+    color: white;
 }
 
 @media (max-width: 667px) {
