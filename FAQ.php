@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="CSS/FAQ.css">
 
     <!-- Favicon -->
-    <link rel="icon" href="images/Images/SVG Samples/Dressingnity SVG.svg">
+    <link rel="icon" href="Images/Fevicon/Dressingnity SVG.png">
 
 </head>
 
