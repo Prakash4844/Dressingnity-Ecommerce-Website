@@ -35,7 +35,7 @@
 
     <div class="wrapper">
         <header>Login Form</header>
-        <form action="login_query.php" method="POST">
+        <form class="login-form" action="login_query.php" method="POST">
             <div class="field email">
                 <div class="input-area Play_font">
                     <input type="text" name="username" required="required" placeholder="Email Address">

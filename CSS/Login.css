@@ -39,16 +39,16 @@ body {
   font-weight: 600;
 }
 
-.wrapper form {
+.wrapper .login-form {
   margin: 40px 0;
 }
 
-form .field {
+.login-form .field {
   width: 100%;
   margin-bottom: 20px;
 }
 
-form .field.shake {
+.login-form .field.shake {
   animation: shake 0.3s ease-in-out;
 }
 
@@ -70,13 +70,13 @@ form .field.shake {
   }
 }
 
-form .field .input-area {
+.login-form .field .input-area {
   height: 50px;
   width: 100%;
   position: relative;
 }
 
-form input {
+.login-form input {
   width: 100%;
   height: 100%;
   outline: none;
@@ -90,13 +90,13 @@ form input {
   transition: all 0.2s ease;
 }
 
-form .field input:focus,
-form .field.valid input {
+.login-form .field input:focus,
+.login-form .field.valid input {
   border-color: #a83d7b;
 }
 
-form .field.shake input,
-form .field.error input {
+.login-form .field.shake input,
+.login-form .field.error input {
   border-color: #dc3545;
 }
 
@@ -119,37 +119,37 @@ form .field.error input {
   color: #dc3545;
 }
 
-form input:focus~.icon,
-form .field.valid .icon {
+.login-form input:focus~.icon,
+.login-form .field.valid .icon {
   color: #a83d7b;
 }
 
-form .field.shake input:focus~.icon,
-form .field.error input:focus~.icon {
+.login-form .field.shake input:focus~.icon,
+.login-form .field.error input:focus~.icon {
   color: #bfbfbf;
 }
 
-form input::placeholder {
+.login-form input::placeholder {
   color: #bfbfbf;
   font-size: 17px;
 }
 
-form .field .error-txt {
+.login-form .field .error-txt {
   color: #dc3545;
   text-align: left;
   margin-top: 5px;
 }
 
-form .field .error {
+.login-form .field .error {
   display: none;
 }
 
-form .field.shake .error,
-form .field.error .error {
+.login-form .field.shake .error,
+.login-form .field.error .error {
   display: block;
 }
 
-form .pass-txt {
+.login-form .pass-txt {
   text-align: left;
   margin-top: -10px;
 }
@@ -163,7 +163,7 @@ form .pass-txt {
   text-decoration: underline;
 }
 
-form input[type="submit"] {
+.login-form input[type="submit"] {
   height: 50px;
   margin-top: 30px;
   color: #fff;
@@ -175,6 +175,6 @@ form input[type="submit"] {
   transition: all 0.3s ease;
 }
 
-form input[type="submit"]:hover {
+.login-form input[type="submit"]:hover {
   background: #a83d7b;
 }
