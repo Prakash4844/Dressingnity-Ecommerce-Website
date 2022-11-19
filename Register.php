@@ -24,10 +24,13 @@ session_start();
     <link rel="stylesheet" href="CSS/Styles.css">
     <link rel="stylesheet" href="CSS/Login.css">
 
+    <!-- Favicon -->
+    <link rel="icon" href="Images/Fevicon/Dressingnity SVG.png">
+
 </head>
     <!-- Navbar Starts -->
     <?php
-        include('/home/zaphkill/Documents/Github/Dressingnity-Ecommerce-Website/Partials/Navbar.html')
+        include('Partials/Navbar.html')
     ?>
     <!-- Navbar Ends -->
 
@@ -97,13 +100,13 @@ session_start();
 
     <!-- Footer Starts -->
     <?php
-        include('/home/zaphkill/Documents/Github/Dressingnity-Ecommerce-Website/Partials/Footer.html')
+        include('Partials/Footer.html')
     ?>
     <!--Footer Ends-->
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials\Cookies.html')
+    include('Partials/Cookies.html')
     ?>
     <!-- End of Cookie Banner -->
 
