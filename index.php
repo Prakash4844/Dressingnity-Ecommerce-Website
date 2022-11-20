@@ -24,7 +24,7 @@
 <body>
     <!-- Navbar Starts -->
     <?php
-        include('Partials/Navbar.html')
+        include('Partials/Navbar.php')
     ?>
     <!-- Navbar Ends -->  
 
@@ -199,7 +199,7 @@
                             <span class="fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <!-- <a href="Products.html"><button type="button"  class="btn  ">Products</button></a>  -->
+                    <!-- <a href="Products.php"><button type="button"  class="btn  ">Products</button></a>  -->
                 </div>
             </div>
         </div>
@@ -491,13 +491,13 @@
     
     <!-- Footer Starts -->
     <?php
-        include('Partials/Footer.html')
+        include('Partials/Footer.php')
     ?>
     <!--Footer Ends-->
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials/Cookies.html')
+    include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
 

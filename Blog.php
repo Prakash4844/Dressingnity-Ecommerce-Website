@@ -31,7 +31,7 @@
 <body>
     <!-- Navbar Starts -->
     <?php
-        include('Partials/Navbar.html')
+        include('Partials/Navbar.php')
     ?>
     <!-- Navbar Ends -->
 
@@ -65,13 +65,13 @@
 
     <!-- Footer Starts -->
      <?php
-        include('Partials/Footer.html')
+        include('Partials/Footer.php')
     ?>
     <!--Footer Ends-->
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials/Cookies.html')
+    include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
 

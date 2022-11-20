@@ -104,6 +104,10 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- DarkMode -->
+                                <?php
+                                     include('Partials/DarkMode.php')
+                                ?>
                             </div>
                         </div>
                     </div>
