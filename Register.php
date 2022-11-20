@@ -20,6 +20,9 @@ session_start();
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     
+    <!-- DarkReader JavaScript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="CSS/Styles.css">
     <link rel="stylesheet" href="CSS/Login.css">
@@ -39,7 +42,7 @@ session_start();
 	<header>Registration Form</header>
         <!-- <form action="Login.php"> -->
 		<!-- Registration Form start -->
-		<form method="POST" action="save_member.php">
+		<form method="POST" action="save_member.php" class="login-form">
 
 		<div class="field email">
                 <div class="input-area Play_font">

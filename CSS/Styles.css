@@ -220,7 +220,7 @@ color:#a80d65;
 .Dressingnity_footer .widget_wrapper .widget .widget_title h4:after {
   content: "";
   display: block;
-  background: url(../images/shape/line.png) no-repeat;
+  /* background: url(../images/shape/line.png) no-repeat; */
   max-width: 38px;
   height: 2px;
   margin-top: 5px;
