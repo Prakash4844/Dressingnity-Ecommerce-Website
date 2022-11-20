@@ -39,7 +39,7 @@ session_start();
 	<header>Registration Form</header>
         <!-- <form action="Login.php"> -->
 		<!-- Registration Form start -->
-		<form method="POST" action="save_member.php">
+		<form method="POST" action="save_member.php" class="login-form">
 
 		<div class="field email">
                 <div class="input-area Play_font">
