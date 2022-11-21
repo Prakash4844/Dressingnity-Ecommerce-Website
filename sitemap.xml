@@ -1,109 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-		<url>
-			<loc>https://prakash4844.github.io/dressingnity-ecommerce-website/</loc>
-			<changefreq>weekly</changefreq>
-		</url>
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--  created with sitemap generator https://octopus.do  -->
 
-		<url>
-			<loc>https://prakash4844.github.io/#</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/#collection</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/special-m</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/special</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/#special-m</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/#special</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/#!</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/cart.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/sign-in.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/products.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/about.html#aboutus</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/about.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/blog.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/faq.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/terms&amp;conditions.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/sitemap.xml</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/index.html</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/tel:+919246147999</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/mailto:info@dressingnity.com</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-		<url>
-			<loc>https://prakash4844.github.io/mailto:services@dressingnity.com</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-
-	</urlset>
-
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website/</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/cart</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/sign-in</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/products</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/about</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/blog</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/faq</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/termsconditions</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/index</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/checkout</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
