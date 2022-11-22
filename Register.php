@@ -20,6 +20,9 @@ session_start();
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     
+    <!-- DarkReader JavaScript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="CSS/Styles.css">
     <link rel="stylesheet" href="CSS/Login.css">
@@ -30,7 +33,7 @@ session_start();
 </head>
     <!-- Navbar Starts -->
     <?php
-        include('Partials/Navbar.html')
+        include('Partials/Navbar.php')
     ?>
     <!-- Navbar Ends -->
 
@@ -100,13 +103,13 @@ session_start();
 
     <!-- Footer Starts -->
     <?php
-        include('Partials/Footer.html')
+        include('Partials/Footer.php')
     ?>
     <!--Footer Ends-->
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials/Cookies.html')
+    include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
 
