@@ -118,6 +118,7 @@
                         <div class="col-lg-12">
                             <div class="copyright_text">
                                 <p>Copyright &copy; 2022 All rights reserved.</p>
+                                <p>Made with ❤️ by Team Quad-Core.</p>
                             </div>
                         </div>
                     </div>

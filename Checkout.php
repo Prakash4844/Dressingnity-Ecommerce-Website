@@ -39,7 +39,7 @@
     <div class="container">
         <div class="py-5 text-center">
 
-            <h2>Checkout form</h2>
+            <h2>Checkout</h2>
 
         </div>
 
