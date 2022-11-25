@@ -91,6 +91,7 @@ window.addEventListener("load", function () {
     var darkModeCookie = getCookie("darkmode");
     // if the cookie is set to "on", turn on dark mode
     if (darkModeCookie == "on") {
+        document.getElementById("DarkMode").checked = true;
         // toggle dark mode
         toggleDarkMode(darkModeCookie);
     }
