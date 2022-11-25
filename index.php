@@ -47,21 +47,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="Images/HomePage/sliderimg1.jpg" class="d-block w-100" alt="...">
+            <img src="Images/HomePage/sliderimg1.jpg" class="d-block rounded-3 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1>First slide label</h1>
               <p class="fs-5">Some representative placeholder content for the first slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="Images/HomePage/wallpepergirls.jpg" class="d-block w-100" alt="...">
+            <img src="Images/HomePage/wallpepergirls.jpg" class="d-block rounded-3 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1>Second slide label</h1>
               <p class="fs-5">Some representative placeholder content for the second slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="Images/HomePage/sliderimg3.jpg" class="d-block w-100" alt="...">
+            <img src="Images/HomePage/sliderimg3.jpg" class="d-block rounded-3 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1>Third slide label</h1>
               <p class="fs-5">Some representative placeholder content for the third slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
@@ -99,7 +99,7 @@
                 <div class = "collection-list mt-4 row gx-0 gy-3">
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_formal_gray_shirt.png" class = "w-100">
+                            <img src = "Images/HomePage/c_formal_gray_shirt.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -111,7 +111,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_pant_girl.png" class = "w-100">
+                            <img src = "Images/HomePage/c_pant_girl.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -123,7 +123,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_polo-shirt.png" class = "w-100">
+                            <img src = "Images/HomePage/c_polo-shirt.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -135,7 +135,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_shirt-girl.png" class = "w-100">
+                            <img src = "Images/HomePage/c_shirt-girl.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -147,7 +147,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_t-shirt_men.png" class = "w-100">
+                            <img src = "Images/HomePage/c_t-shirt_men.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -159,7 +159,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_tunic-shirt_girl.png" class = "w-100">
+                            <img src = "Images/HomePage/c_tunic-shirt_girl.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -171,7 +171,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_undershirt.png" class = "w-100">
+                            <img src = "Images/HomePage/c_undershirt.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -183,7 +183,7 @@
 
                     <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
                         <div class = "collection-img position-relative">
-                            <img src = "Images/HomePage/c_western-shirt.png" class = "w-100">
+                            <img src = "Images/HomePage/c_western-shirt.png" class = "rounded-3 w-100">
                             
                         </div>
                         <div class = "text-center">
@@ -209,7 +209,7 @@
             <div class = "special-list row g-0">
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="Images/HomePage/best_selling_1.jpg" class = "w-100">
+                        <img src="Images/HomePage/best_selling_1.jpg" class = "rounded-3  w-100">
                           
                     </div>
                     <div class = "text-center">
@@ -221,7 +221,7 @@
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="Images/HomePage/best_selling_2.jpg" class = "w-100">
+                        <img src="Images/HomePage/best_selling_2.jpg" class = "rounded-3 w-100">
                           
                     </div>
                     <div class = "text-center">
@@ -233,7 +233,7 @@
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="Images/HomePage/best_selling_3.jpg" class = "w-100">
+                        <img src="Images/HomePage/best_selling_3.jpg" class = "rounded-3 w-100">
                           
                     </div>
                     <div class = "text-center">
@@ -245,7 +245,7 @@
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="Images/HomePage/best_selling_2.jpg" class = "w-100">
+                        <img src="Images/HomePage/best_selling_2.jpg" class = "rounded-3 w-100">
                           
                     </div>
                     <div class = "text-center">
@@ -271,7 +271,7 @@
         <div class = "special-list row g-0">
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="Images/HomePage/special_product_1.jpg" class = "w-100">
+                    <img src="Images/HomePage/special_product_1.jpg" class = "rounded-3 w-100">
                        
                 </div>
                 <div class = "text-center">
@@ -283,7 +283,7 @@
 
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="Images/HomePage/special_product_2.jpg" class = "w-100">
+                    <img src="Images/HomePage/special_product_2.jpg" class = "rounded-3 w-100">
                        
                 </div>
                 <div class = "text-center">
@@ -295,7 +295,7 @@
 
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="Images/HomePage/special_product_3.jpg" class = "w-100">
+                    <img src="Images/HomePage/special_product_3.jpg" class = "rounded-3 w-100">
                        
                 </div>
                 <div class = "text-center">
@@ -307,7 +307,7 @@
 
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="Images/HomePage/special_product_4.jpg" class = "w-100">
+                    <img src="Images/HomePage/special_product_4.jpg" class = "rounded-3 w-100">
                        
                 </div>
                 <div class = "text-center">
@@ -396,7 +396,7 @@
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3 ">
                     <h3 class="fs-5 popular-type">Top Rated</h3>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/on_sale_1.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Sundress</p>
@@ -404,7 +404,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/on_sale_2.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Shirtdress</p>
@@ -412,7 +412,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/on_sale_3.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Cardign</p>
@@ -424,7 +424,7 @@
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3">
                     <h3 class="fs-5 popular-type">Best Selling</h3>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/top_rated_1.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Trousers</p>
@@ -432,7 +432,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/top_rated_2.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Coat</p>
@@ -440,7 +440,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/top_rated_3.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Shift Dress</p>
@@ -452,7 +452,7 @@
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3">
                     <h3 class="fs-5 popular-type">On Sale</h3>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/top_rated_3.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">T-shirt</p>
@@ -460,7 +460,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/on_sale_2.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Regular Jacket</p>
@@ -468,7 +468,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src=" "
+                        <img src="Images/HomePage/top_rated_1.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Sari</p>
