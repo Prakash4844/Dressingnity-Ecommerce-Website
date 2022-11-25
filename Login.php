@@ -91,6 +91,10 @@
     <script src="JavaScript/Cookies.js"></script>
     <!-- Custom JS -->
 
+    
+    <!-- Darkmode-Toggle -->
+    <script src="JavaScript/DarkModeToggle.js"></script>
+
 </body>
 
 </html>
