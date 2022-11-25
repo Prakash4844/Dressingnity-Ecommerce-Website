@@ -17,7 +17,7 @@
                 <i class="ri-moon-fill"></i><span>Dark Mode</span>
             </div>
             <div class="switch-toggle">
-                <input type="checkbox" id="DarkMode" onclick="turnDark()" >
+                <input type="checkbox" id="DarkMode" onclick="turnDark()">
                 <label for="DarkMode"></label>
             </div>
         <!-- </div> -->
