@@ -3,56 +3,68 @@
 <!--  created with sitemap generator https://octopus.do  -->
 
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website/</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website/</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website/cart</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/cart</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website/sign-in</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/sign-in</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website/products</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/products</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website/about</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/about</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website/blog</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/blog</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website/faq</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/faq</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://prakash4844.github.io/Dressingnity-ecommerce-website//Dressingnity-ecommerce-website/terms</loc>
-        <lastmod>2022-10-30</lastmod>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/termsconditions</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/index</loc>
+        <lastmod>2022-11-21</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://prakash4844.github.io/dressingnity-ecommerce-website//dressingnity-ecommerce-website/checkout</loc>
+        <lastmod>2022-11-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
