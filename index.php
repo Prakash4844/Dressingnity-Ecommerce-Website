@@ -81,132 +81,117 @@
     <!-- end of header -->
 
 
-    <!-- collection -->
-    <section id="collection" class="py-5">
-        <div class="container">
-            <div class="title text-center">
-                <h2 class="position-relative d-inline-block">New Collection</h2>
+   <!-- collection -->
+   <section id = "collection" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center">
+                <h2 class = "position-relative d-inline-block">New Collection</h2>
             </div>
 
-            <div class="row g-0">
-                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group collection-btn">
-                    <button type="button" class="btn m-2 text-dark  active-filter-btn" data-filter="*"><a class="fs-4 " href = "#collection" class = "btn   mt-3">All</a></button>
-                    <button type="button" class="btn m-2 text-dark " data-filter=".best"><a class="fs-4 " href = "#special" class = "btn   mt-3">Female Section</a></button>
-                    <button type="button" class="btn m-2 text-dark " data-filter=".feat"><a class="fs-4 " href = "#special-m" class = "btn   mt-3">Male Section</a></button>
-                    <button type="button" class="btn m-2 text-dark " data-filter=".new"><a class="fs-4 " href = "#popular" class = "btn   mt-3">Products</a></button>
+            <div class = "row g-0">
+                <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type = "button" class = "btn m-2 text-dark " >All</button>
+                    <button type = "button" class = "btn m-2 text-dark" >Best Sellers</button>
+                    <button type = "button" class = "btn m-2 text-dark" >Featured</button>
+                    <button type = "button" class = "btn m-2 text-dark" >New Arrival</button>
                 </div>
 
-                <div class="collection-list mt-4 row gx-0 gy-3">
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2 best">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php"><img
-                                        src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""></a></p>
-                            </div>
-                            <div class = " text-center">
-                                    
-                                    <p class="text-capitalize my-1">gray shirt</p>
-                                    <span class="fw-bold">$ 45.50</span>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php"><img
-                                        src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""></a></p>
-                               
-                        </div>
-                        <div class="text-center">
+                <div class = "collection-list mt-4 row gx-0 gy-3">
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_formal_gray_shirt.png" class = "w-100">
                             
-                            <p class="text-capitalize my-1">gray shirt</p>
-                            <span class="fw-bold">$ 45.50</span>
+                        </div>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2 new">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php"><img
-                                        src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""></a></p>
-                              
-                        </div>
-                        <div class="text-center">
-                        
-                            <p class="text-capitalize my-1">gray shirt</p>
-                            <span class="fw-bold">$ 45.50</span>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3  p-2 best">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php"><img
-                                        src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""></a></p>
-                               
-                        </div>
-                        <div class="text-center">
-                           
-                            <p class="text-capitalize my-1">gray shirt</p>
-                            <span class="fw-bold">$ 45.50</span>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php"><img
-                                        src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""></a></p>
-                               
-                        </div>
-                        <div class="text-center">
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_pant_girl.png" class = "w-100">
                             
-                            <p class="text-capitalize my-1">gray shirt</p>
-                            <span class="fw-bold">$ 45.50</span>
+                        </div>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2 new">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php"><img
-                                        src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""></a></p>
-                                
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_polo-shirt.png" class = "w-100">
+                            
                         </div>
-                        <div class="text-center">
-                           
-                            <p class="text-capitalize my-1">gray shirt</p>
-                            <span class="fw-bold">$ 45.50</span>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3  p-2 best">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php"><img
-                                        src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""  ></a></p>
-                               
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_shirt-girl.png" class = "w-100">
+                            
                         </div>
-                        <div class="text-center">
-                        
-                            <p class="text-capitalize my-1">gray shirt</p>
-                            <span class="fw-bold">$ 45.50</span>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3  p-2 feat">
-                        <div class="collection-img position-relative">
-                            <p><a href="Products.php">
-                                <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
-                                        class="w-100 alt=""></a></p>
-                             
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_t-shirt_men.png" class = "w-100">
+                            
                         </div>
-                        <div class="text-center">
-                            <p class="text-capitalize my-1">gray shirt</p>
-                            <span class="fw-bold">$ 45.50</span>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
                         </div>
                     </div>
-                    <!-- <a href="Products.php"><button type="button"  class="btn  ">Products</button></a>  -->
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_tunic-shirt_girl.png" class = "w-100">
+                            
+                        </div>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_undershirt.png" class = "w-100">
+                            
+                        </div>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <img src = "Images/HomePage/c_western-shirt.png" class = "w-100">
+                            
+                        </div>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">gray shirt</p>
+                            <span class = "fw-bold">$ 45.50</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -218,55 +203,55 @@
      <section id = "special" class = "py-5">
         <div class = "container">
             <div class = "title text-center py-5">
-                <h2 class = "position-relative d-inline-block">Female Collection</h2>
+                <h2 class = "position-relative d-inline-block">Male Collection</h2>
             </div>
 
             <div class = "special-list row g-0">
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                        <img src="Images/HomePage/best_selling_1.jpg" class = "w-100">
                           
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white mt-3"> Cart </a>
+                        <a href = "#" class = "btn btn-add rounded-3  text-black mt-3"> Cart </a>
                     </div>
                 </div>
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                        <img src="Images/HomePage/best_selling_2.jpg" class = "w-100">
                           
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
+                        <a href = "#" class = "btn btn-add rounded-3  text-black  mt-3"> Cart </a>
                     </div>
                 </div>
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                        <img src="Images/HomePage/best_selling_3.jpg" class = "w-100">
                           
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
+                        <a href = "#" class = "btn btn-add rounded-3  text-black  mt-3"> Cart </a>
                     </div>
                 </div>
 
                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                     <div class = "special-img position-relative overflow-hidden">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                        <img src="Images/HomePage/best_selling_2.jpg" class = "w-100">
                           
                     </div>
                     <div class = "text-center">
                         <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                         <span class = "fw-bold d-block">$ 45.50</span>
-                        <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
+                        <a href = "#" class = "btn btn-add rounded-3  text-black  mt-3"> Cart </a>
                     </div>
                 </div>
             </div>
@@ -280,55 +265,55 @@
  <section id = "special-m" class = "py-5">
     <div class = "container">
         <div class = "title text-center py-5">
-            <h2 class = "position-relative d-inline-block">Male Collection</h2>
+            <h2 class = "position-relative d-inline-block">Female Collection</h2>
         </div>
 
         <div class = "special-list row g-0">
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                    <img src="Images/HomePage/special_product_1.jpg" class = "w-100">
                        
                 </div>
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
+                    <a href = "#" class = "btn btn-add rounded-3  text-black  mt-3"> Cart </a>
                 </div>
             </div>
 
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                    <img src="Images/HomePage/special_product_2.jpg" class = "w-100">
                        
                 </div>
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
+                    <a href = "#" class = "btn btn-add rounded-3  text-black  mt-3"> Cart </a>
                 </div>
             </div>
 
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                    <img src="Images/HomePage/special_product_3.jpg" class = "w-100">
                        
                 </div>
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
+                    <a href = "#" class = "btn btn-add rounded-3  text-black  mt-3"> Cart </a>
                 </div>
             </div>
 
             <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
                 <div class = "special-img position-relative overflow-hidden">
-                    <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70" class = "w-100">
+                    <img src="Images/HomePage/special_product_4.jpg" class = "w-100">
                        
                 </div>
                 <div class = "text-center">
                     <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
                     <span class = "fw-bold d-block">$ 45.50</span>
-                    <a href = "#" class = "btn btn-add rounded-3 text-white  mt-3"> Cart </a>
+                    <a href = "#" class = "btn btn-add rounded-3  text-black  mt-3"> Cart </a>
                 </div>
             </div>
         </div>
@@ -346,13 +331,13 @@
         
             <div class="carousel-item active" >
               <h2>I no longer have to sniff other cats for love. I've found the hottest Corgi on TinCat. Woof.</h2>
-              <img class="testimonial-image" src="Images/HomePage/testimon1.jpeg" alt="dog-profile">
+             
               <em>Pebbles, New York</em>
             </div>
 
             <div class="carousel-item ">
               <h2 class="testimonial-text">My cat used to be so lonely , but with TinCat's help, they've found the rhfy grbgry rtrgtg</h2>
-              <img class="testimonial-image" src="Images/HomePage/testimon2.jpg" alt="lady">
+              
               <em>Beverly, Illinois</em>
             </div>
        
@@ -411,7 +396,7 @@
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3 ">
                     <h3 class="fs-5 popular-type">Top Rated</h3>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Sundress</p>
@@ -419,7 +404,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Shirtdress</p>
@@ -427,7 +412,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Cardign</p>
@@ -439,7 +424,7 @@
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3">
                     <h3 class="fs-5 popular-type">Best Selling</h3>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Trousers</p>
@@ -447,7 +432,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Coat</p>
@@ -455,7 +440,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Shift Dress</p>
@@ -467,7 +452,7 @@
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3">
                     <h3 class="fs-5 popular-type">On Sale</h3>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">T-shirt</p>
@@ -475,7 +460,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Regular Jacket</p>
@@ -483,7 +468,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start justify-content-start popular-product">
-                        <img src="https://rukminim1.flixcart.com/image/832/832/shirt/k/h/n/bfgreysht02-being-fab-40-original-imaecvnxyxg44vre.jpeg?q=70"
+                        <img src=" "
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
                             <p class="mb-0">Sari</p>

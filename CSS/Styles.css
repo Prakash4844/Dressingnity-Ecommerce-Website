@@ -73,7 +73,7 @@ body {
 height: 80vh;
 }
 /* Collections start */
-#collection{
+/* #collection{
   background-color: #FFF  ;
 }
 
@@ -83,12 +83,12 @@ height: 80vh;
 }
 .collection-btn :hover{
 color:#a80d65;
-}
+} */
 
 /* Collections end */
 /* special start*/
 
-#special{
+/* #special{
   background-color:    #FFEEEE;
   
 }
@@ -110,7 +110,7 @@ color:#a80d65;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
+} */
 
 #popular{
   background-color:    #FFf  ;
@@ -122,7 +122,7 @@ color:#a80d65;
   background-color:#a83d7b;
   text-align: center;
   color: #fff;
-  height: 80vh;
+  height: 20vh;
 }
 .testimonial-image{
   width: 40%;
@@ -358,3 +358,44 @@ color:#a80d65;
   color: #a80d65;
 }
 /* Cookies Nhi Hai 🥲 */
+
+
+
+
+
+/* collection */
+.active-filter-btn{
+  background-color:#a80d65 !important;
+  color: rgb(235, 52, 137)!important;
+  border-color:#a83d7b !important;
+}
+.filter-button-group .btn:hover{
+  color: black !important;
+}
+.collection-img span{
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+
+/* special */
+.special-img span{
+  top: 20px;
+  right: 20px;
+}
+.special-list .btn{
+  padding: 8px 20px!important;
+}
+.special-img img{
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.special-img:hover img{
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
