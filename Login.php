@@ -37,7 +37,7 @@
     <!-- Navbar Ends -->
 
     <div class="wrapper">
-        <header>Login Form</header>
+        <header>Login</header>
         <form class="login-form" action="login_query.php" method="POST">
             <div class="field email">
                 <div class="input-area Play_font">
