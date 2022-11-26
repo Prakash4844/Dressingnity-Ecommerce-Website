@@ -39,7 +39,7 @@
        <!-- ******************************************************************************************************************************* -->
 
     <!-- header -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -76,9 +76,25 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> -->
 
     <!-- end of header -->
+
+
+
+    <!-- Header Starts -->
+    <section id="head-sec">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deal</h2>
+        <h1 >On all products</h1>
+        <p>Save more with coupons & up to 15% off!</p>
+        <a href = "#" class = "btn btn-warning">Shop Now</a>
+
+    </section>
+
+
+    <!-- Header Ends -->
+
 
 
    <!-- collection -->
@@ -370,20 +386,6 @@
 
 <!-- Testimonials End -->
 
-
-    <!-- blogs -->
-    <section id = "offers" class = "py-5">
-        <div class = "container">
-            <div class = "row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
-                <div class = "offers-content">
-                    <span class = "text-black">Discount Up To 15%</span>
-                    <h2 class = "mt-2 mb-4 text-black">Grand Sale Offer!</h2>
-                    <a href = "#" class = "btn btn-warning">Buy Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of blogs -->
 
     <!-- popular  products -->
     <section id="popular" class="py-5">

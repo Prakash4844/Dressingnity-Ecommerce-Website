@@ -72,32 +72,89 @@ body {
 /* .carousel-item{
 height: 80vh;
 } */
-/* Collections start */
-/* #collection{
-  background-color: #FFF  ;
-}
 
-.collection-btn a{
-  text-decoration: none;
-  color: black;
-}
-.collection-btn :hover{
-color:#a80d65;
-} */
-
-/* Collections end */
-/* special start*/
-
-/* #special{
-  background-color:    #FFEEEE;
+#head-sec{
+  margin-top: 1rem;
+  background-image: url(../Images/HomePage/fashion-girl.png);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
   
+  align-items: flex-start;
+  justify-content: center;
 }
-.btn-add{
- background-color:#a83d7b
+@media only screen and (min-width: 400px){
+  #head-sec{
+    background-image: url(../Images/HomePage/sliderimg3.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
-#special-m{
-  background-color:#FFF ;
+
+
+#head-sec p,h2,h4{
+  color: #d49100;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
+
+#head-sec h4{
+padding-bottom: 15px;
+
+}
+#head-sec h1{
+color: #088178;
+font-size: 1.7rem;
+}
+#head-sec a{
+  padding: 14px 80px 14px 65px;
+}
+
+
+@media only screen and (min-width: 400px){
+  #head-sec p,h2,h4{
+  color:black;
+  font-weight: 500;
+}
+#head-sec a{
+  padding: 14px 80px 14px 65px;
+}
+}
+
+
+
+/* Collections start */
+/* collection */
+.active-filter-btn{
+  background-color:#a80d65 !important;
+  color: rgb(235, 52, 137)!important;
+  border-color:#a83d7b !important;
+}
+.filter-button-group .btn:hover{
+  color: black !important;
+}
+.collection-img span{
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+
+/* special */
 .special-img span{
   top: 20px;
   right: 20px;
@@ -105,13 +162,16 @@ color:#a80d65;
 .special-list .btn{
   padding: 8px 20px!important;
 }
-
 .special-img img{
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-} */
-
+}
+.special-img:hover img{
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
 #popular{
   background-color:    #FFf  ;
 }
@@ -153,27 +213,7 @@ color:#a80d65;
 }
 /* Testimonials end */
 
-/* blog for  offers start */
-#offers{
-  background: url(/Images/HomePage/img2.jpg) center/cover no-repeat;
-  position: relative;
-  height: 610px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#offers .row{
-  min-height: 80vh;
-}
-.offers-content span{
-  font-size: 28px;
-}
-.offers-content h2{
-  font-size: 60px;
-}
-.offers-content .btn{
-  border-color: transparent!important;
-}
-/* end of offers blog */
+
 /* popular products */
 
 .popular-product {
@@ -363,39 +403,3 @@ color:#a80d65;
 
 
 
-/* collection */
-.active-filter-btn{
-  background-color:#a80d65 !important;
-  color: rgb(235, 52, 137)!important;
-  border-color:#a83d7b !important;
-}
-.filter-button-group .btn:hover{
-  color: black !important;
-}
-.collection-img span{
-  top: 20px;
-  right: 20px;
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-}
-
-
-/* special */
-.special-img span{
-  top: 20px;
-  right: 20px;
-}
-.special-list .btn{
-  padding: 8px 20px!important;
-}
-.special-img img{
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.special-img:hover img{
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
-}
