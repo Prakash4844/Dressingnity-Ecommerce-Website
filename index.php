@@ -47,7 +47,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="Images/HomePage/sliderimg1.jpg" class="d-block rounded-3 w-100" alt="...">
+            <img src="Images/HomePage/sliderimg1920x1080.jpg" class="d-block rounded-3 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1>First slide label</h1>
               <p class="fs-5">Some representative placeholder content for the first slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
