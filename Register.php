@@ -39,7 +39,7 @@ session_start();
 
 
 	<div class="wrapper">
-	<header>Registration Form</header>
+	<header>Registration</header>
         <!-- <form action="Login.php"> -->
 		<!-- Registration Form start -->
 		<form method="POST" action="save_member.php" class="login-form">
@@ -112,7 +112,13 @@ session_start();
     include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
-
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Bundle -->
+    
     <!-- Custom JS -->
     <script src="JavaScript/Cookies.js"></script>
     <!-- Custom JS -->

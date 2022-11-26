@@ -47,21 +47,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="Images/HomePage/sliderimg1.jpg" class="d-block rounded-3 w-100" alt="...">
+            <img src="Images/HomePage/sliderimg1-1920x1080.jpg" class="d-block rounded-3 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1>First slide label</h1>
               <p class="fs-5">Some representative placeholder content for the first slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="Images/HomePage/wallpepergirls.jpg" class="d-block rounded-3 w-100" alt="...">
+            <img src="Images/HomePage/sliderimg2-1920x1080.jpg" class="d-block rounded-3 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1>Second slide label</h1>
               <p class="fs-5">Some representative placeholder content for the second slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="Images/HomePage/sliderimg3.jpg" class="d-block rounded-3 w-100" alt="...">
+            <img src="Images/HomePage/sliderimg3-1920x1080.jpg" class="d-block rounded-3 w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h1>Third slide label</h1>
               <p class="fs-5">Some representative placeholder content for the third slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
@@ -494,7 +494,13 @@
     include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
-
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Bundle -->
+    
     <!-- Custom JS -->
     <script src="JavaScript/Cookies.js"></script>
     <!-- Custom JS -->

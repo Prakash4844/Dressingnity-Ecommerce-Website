@@ -72,6 +72,7 @@ body {
 /* .carousel-item{
 height: 80vh;
 } */
+
 #head-sec{
   margin-top: 1rem;
   background-image: url(../Images/HomePage/fashion-girl.png);
@@ -235,6 +236,7 @@ font-size: 1.7rem;
 .Dressingnity_footer {
   border-top: solid 1px #e3e7e9;
   background-color: #ededed;
+  padding-top: 30px;
 }
 
 .Dressingnity_footer .widget_wrapper {
