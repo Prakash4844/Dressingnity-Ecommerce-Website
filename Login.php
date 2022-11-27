@@ -37,7 +37,7 @@
     <!-- Navbar Ends -->
 
     <div class="wrapper">
-        <header>Login Form</header>
+        <header>Login</header>
         <form class="login-form" action="login_query.php" method="POST">
             <div class="field email">
                 <div class="input-area Play_font">
@@ -86,7 +86,13 @@
     include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
-
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Bundle -->
+    
     <!-- Custom JS -->
     <script src="JavaScript/Cookies.js"></script>
     <!-- Custom JS -->

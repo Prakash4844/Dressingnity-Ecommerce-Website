@@ -72,6 +72,7 @@ body {
 /* .carousel-item{
 height: 80vh;
 } */
+
 #head-sec{
   margin-top: 1rem;
   background-image: url(../Images/HomePage/special_product_3.jpg);
@@ -88,7 +89,7 @@ height: 80vh;
 }
 @media only screen and (min-width: 700px){
   #head-sec{
-    background-image: url(../Images/HomePage/sliderimg3.jpg);
+    background-image: url(../Images/HomePage/sliderimg3-1920x1080.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -200,6 +201,7 @@ font-size: 3.2rem;
 .Dressingnity_footer {
   border-top: solid 1px #e3e7e9;
   background-color: #ededed;
+  padding-top: 30px;
 }
 
 .Dressingnity_footer .widget_wrapper {

@@ -118,6 +118,7 @@
                         <div class="col-lg-12">
                             <div class="copyright_text">
                                 <p>Copyright &copy; 2022 All rights reserved.</p>
+                                <p>Made with ❤️ by Team Quad-Core.</p>
                             </div>
                         </div>
                     </div>
@@ -125,12 +126,6 @@
             </div>
         </footer>
         <!-- Footer Ends -->
-    
 
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-    <!-- Bootstrap JS Bundle -->
 
     </body>
