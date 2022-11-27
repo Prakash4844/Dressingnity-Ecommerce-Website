@@ -96,6 +96,25 @@
     <!-- Header Ends -->
 
 
+<!-- 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+        <h4 class="big-text">Trade-in-offer</h4>
+        <h2 class="">Super value deal</h2>
+        <h1 class="">On all products</h1>
+        <p class="">Save more with coupons & up to 15% off!</p>
+        <a href = "#" class = "btn btn-warning">Shop Now</a>
+
+            </div>
+
+            <div class="col-sm-6">
+                <img src="Images/HomePage/fashion-girl.png" class="img-responsive" alt="">
+            </div>
+        </div>
+    </div>
+ -->
+
 
    <!-- collection -->
    <section id = "collection" class = "py-5">
@@ -338,6 +357,7 @@
 <!-- end of special products -->
 
 
+
  <!-- Testimonials start-->
 
  <section id="testimonials">
@@ -388,7 +408,7 @@
 
 
     <!-- popular  products -->
-    <section id="popular" class="py-5">
+    <!-- <section id="popular" class="py-5">
         <div class="container">
             <div class="title text-center pt-3 pb-5">
                 <h2 class="position-relative d-inline-block ms-4">Products</h2>
@@ -480,7 +500,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- end of popular products-->    
     
     <!-- Footer Starts -->
