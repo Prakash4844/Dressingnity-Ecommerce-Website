@@ -103,7 +103,7 @@ height: 80vh;
 }
 
 #head-sec h1{
-color: #088178;
+color:#a80d65;
 font-size: 3.2rem;
 }
 
@@ -154,9 +154,9 @@ font-size: 3.2rem;
 /* testimonial section */
 #testimonials{
   padding:7% 15%;
-  background-color:#088178;
+  background-color:#c0bcbe;
   text-align: center;
-  color: #fff;
+  color: #000;
   height: 40vh;
 }
 .testimonial-image{
@@ -166,7 +166,7 @@ font-size: 3.2rem;
 }
 
 #press{
-  background-color:#088178;
+  background-color:#c0bcbe;
   text-align: center;
   padding-bottom: 2%;
 }
@@ -187,6 +187,44 @@ font-size: 3.2rem;
  
 }
 /* Testimonials end */
+
+/* banner */
+
+.banner{
+  width: 100%;
+  height: 50vh;
+  margin-top: 5rem;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/HomePage/banner.jpg);
+}
+.banner .content{
+  text-align: center;
+  padding-top: 100px;
+}
+.banner .content h1{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 3px;
+}
+.banner .content p{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 3px;
+}
+#bannerbtn button{
+  width: 150px;
+  height: 38px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#bannerbtn button:hover{
+  background-color: #a83d7b;
+  border: none;
+}
+/* banner */
+
 
 /* Home page middle section Ends */
 
