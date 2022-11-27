@@ -44,6 +44,7 @@
                                     <li><a href="Terms&Conditions.php">Terms & Conditions</a></li>
                                     <li><a href="sitemap.xml">Sitemap</a></li>
                                     <li><a href="index.php">Home</a></li>
+                                    <li><a href="products.php">products</a></li>
                                 </ul>
                             </div>
                         </div>
