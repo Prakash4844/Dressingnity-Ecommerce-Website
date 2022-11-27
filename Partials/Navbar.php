@@ -94,7 +94,7 @@
 
                 <ul class="navbar-nav ms-3">
                     <li class="nav-item me-3">
-                        <a class="nav-link d-flex align-items-center vio-outline" href="products.php">Products
+                        <a class="nav-link d-flex align-items-center vio-outline" href="Products.php">Products
                                </a>
                     </li>
                     <li class="nav-item">
