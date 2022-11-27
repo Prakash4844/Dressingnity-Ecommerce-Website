@@ -38,50 +38,6 @@
 
        <!-- ******************************************************************************************************************************* -->
 
-    <!-- header -->
-    <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="Images/HomePage/sliderimg1-1920x1080.jpg" class="d-block rounded-3 w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>First slide label</h1>
-              <p class="fs-5">Some representative placeholder content for the first slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="Images/HomePage/sliderimg2-1920x1080.jpg" class="d-block rounded-3 w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Second slide label</h1>
-              <p class="fs-5">Some representative placeholder content for the second slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Images/HomePage/sliderimg3-1920x1080.jpg" class="d-block rounded-3 w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Third slide label</h1>
-              <p class="fs-5">Some representative placeholder content for the third slide. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit distinctio perferendis magni aut, tempora temporibus.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div> -->
-
-    <!-- end of header -->
-
-
-
     <!-- Header Starts -->
     <section id="head-sec">
         <h4>Trade-in-offer</h4>
@@ -95,25 +51,6 @@
 
     <!-- Header Ends -->
 
-
-<!-- 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-        <h4 class="big-text">Trade-in-offer</h4>
-        <h2 class="">Super value deal</h2>
-        <h1 class="">On all products</h1>
-        <p class="">Save more with coupons & up to 15% off!</p>
-        <a href = "#" class = "btn btn-warning">Shop Now</a>
-
-            </div>
-
-            <div class="col-sm-6">
-                <img src="Images/HomePage/fashion-girl.png" class="img-responsive" alt="">
-            </div>
-        </div>
-    </div>
- -->
 
 
    <!-- collection -->
@@ -366,13 +303,13 @@
         
         
             <div class="carousel-item active" >
-              <h2>I no longer have to sniff other cats for love. I've found the hottest Corgi on TinCat. Woof.</h2>
+              <h2>I no longer have to sniff other cats for love. Woof.</h2>
              
               <em>Pebbles, New York</em>
             </div>
 
             <div class="carousel-item ">
-              <h2 class="testimonial-text">My cat used to be so lonely , but with TinCat's help, they've found the rhfy grbgry rtrgtg</h2>
+              <h2 class="testimonial-text">My cat ,they've found the rhfy grbgry rtrgtg</h2>
               
               <em>Beverly, Illinois</em>
             </div>
@@ -396,10 +333,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img class="press-logo" src="Images/HomePage/test6.png" alt="tc-logo">
-    <img class="press-logo" src="Images/HomePage/test2.png" alt="tnw-logo">
-    <img class="press-logo" src="Images/HomePage/test3.png" alt="biz-insider-logo">
-    <img class="press-logo" src="Images/HomePage/test4 (2).png" alt="mashable-logo">
+    <img class="press-logo" src="Images/HomePage/guccci.png" alt="tc-logo">
+    <img class="press-logo" src="Images/HomePage/chenel.png" alt="tnw-logo">
+    <img class="press-logo" src="Images/HomePage/Burberry-Logo.png" alt="biz-insider-logo">
+    <img class="press-logo" src="Images/HomePage/raymond.png" alt="mashable-logo">
 
   </section> 
   <!-- press end -->
@@ -408,7 +345,7 @@
 
 
     <!-- popular  products -->
-    <!-- <section id="popular" class="py-5">
+    <section id="popular" class="py-5">
         <div class="container">
             <div class="title text-center pt-3 pb-5">
                 <h2 class="position-relative d-inline-block ms-4">Products</h2>
@@ -500,7 +437,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- end of popular products-->    
     
     <!-- Footer Starts -->
