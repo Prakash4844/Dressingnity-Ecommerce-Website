@@ -344,7 +344,7 @@
 
 <!-- offer -->
     <div class="container" id="offer">
-        <div class="row txt-center">
+        <div class="row text-center">
             <div class="col-md-4 py-3 py-md-0">
             <i class="fa-solid fa-cart-shopping"></i>
                 <h5>Free Shipping</h5>

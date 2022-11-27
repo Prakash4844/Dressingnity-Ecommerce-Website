@@ -357,16 +357,16 @@
 
 
     <!-- popular  products -->
-    <section id="popular" class="py-5">
-        <div class="container">
+    <section id="popular " class="py-5">
+        <div class="container ">
             <div class="title text-center pt-3 pb-5">
-                <h2 class="position-relative d-inline-block ms-4">Products</h2>
+                <h2 class="position-relative d-inline-block ms-4 ">Products</h2>
             </div>
 
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3 ">
                     <h3 class="fs-5 popular-type">Top Rated</h3>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_1.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
@@ -374,7 +374,7 @@
                             <span>$ 20.00</span>
                         </div>
                     </div>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_2.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
@@ -382,7 +382,7 @@
                             <span>$ 20.00</span>
                         </div>
                     </div>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_3.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
@@ -394,7 +394,7 @@
 
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3">
                     <h3 class="fs-5 popular-type">Best Selling</h3>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_1.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
@@ -402,7 +402,7 @@
                             <span>$ 20.00</span>
                         </div>
                     </div>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_2.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
@@ -410,11 +410,11 @@
                             <span>$ 20.00</span>
                         </div>
                     </div>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_3.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
-                            <p class="mb-0">Shift Dress</p>
+                            <p class="mb-0">Dress</p>
                             <span>$ 20.00</span>
                         </div>
                     </div>
@@ -422,7 +422,7 @@
 
                 <div class="col-md-6 col-lg-4 col-md-12 row g-3">
                     <h3 class="fs-5 popular-type">On Sale</h3>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_3.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
@@ -430,15 +430,15 @@
                             <span>$ 20.00</span>
                         </div>
                     </div>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_2.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>
-                            <p class="mb-0">Regular Jacket</p>
+                            <p class="mb-0">Jacket</p>
                             <span>$ 20.00</span>
                         </div>
                     </div>
-                    <div class="d-flex align-items-start justify-content-start popular-product">
+                    <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_1.jpg"
                             alt="" class="img-fluid pe-3 w-25">
                         <div>

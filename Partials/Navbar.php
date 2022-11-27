@@ -40,7 +40,7 @@
                             <ul class="dropdown-menu dropdown-menu-light" style="margin-top: 17px;">
                                 <!-- Try to Fix Dropdown position by removing inline CSS -->
                                 <li>
-                                    <a class="dropdown-item" href="#collection">
+                                    <a class="dropdown-item" href="../index.php#collection">
                                         <i class="ri-genderless-line"></i> All</a>
                                 </li>
                                 <li>
@@ -48,11 +48,11 @@
                                 </li>
 
                                 <li>
-                                    <a class="dropdown-item" href="#special">
+                                    <a class="dropdown-item" href="../index.php#special">
                                         <i class="ri-t-shirt-2-line"></i> Men</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#special-m">
+                                    <a class="dropdown-item" href="../index.php#special-m">
                                         <i class="ri-t-shirt-line"></i> Women</a>
                                 </li>
                             </ul>
@@ -70,18 +70,18 @@
                         <ul class="dropdown-menu dropdown-menu-light" style="margin-top: 15px;">
                             <!-- Try to Fix Dropdown position by removing inline CSS -->
                             <li>
-                                <a class="dropdown-item" href="#collection"><span class="fa-li pe-2"><i
+                                <a class="dropdown-item" href="../index.php#collection"><span class="fa-li pe-2"><i
                                             class="ri-genderless-line"></i></span>All</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#special"><span class="fa-li pe-2"><i
+                                <a class="dropdown-item" href="../index.php#special"><span class="fa-li pe-2"><i
                                             class="ri-t-shirt-2-line"></i></span>Men</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#special-m"><span class="fa-li pe-2"><i
+                                <a class="dropdown-item" href="../index.php#special-m"><span class="fa-li pe-2"><i
                                             class="ri-t-shirt-line"></i></span>Women</a>
                             </li>
                             <li>
@@ -94,11 +94,12 @@
 
                 <ul class="navbar-nav ms-3">
                     <li class="nav-item me-3">
-                        <a class="nav-link d-flex align-items-center vio-outline" href="Products.php">Products
-                               </a>
+                        <a class="nav-link d-flex align-items-center vio-outline" href="Products.php">
+                            <i class="ri-shopping-bag-line"></i>
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center me-3" href="cart.php">
+                        <a class="nav-link d-flex align-items-center me-3 vio-outline" href="cart.php">
                             <i class="ri-shopping-cart-line"></i>
                         </a>
                     </li>
