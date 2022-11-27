@@ -56,7 +56,6 @@
                                 <div class="contact_info">
                                     <div class="single_info">
                                         <div class="icon" style="margin-right: 0px;">
-                                            <i class="fas fa-phone-alt"></i>
                                         </div>
                                         <div class="single_info">
                                             <div class="icon">
