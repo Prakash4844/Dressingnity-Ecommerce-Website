@@ -1,66 +1,98 @@
 /* Reference Link = https://codepen.io/somali_12/pen/YzqEbdp */
 
 .switch-holder {
-    /* padding: 10px 20px; */
-    margin-left: 200px;
+  /* padding: 10px 20px; */
+  margin-left: 200px;
 }
 
+@media (max-width: 400px) {
+  .switch-holder {
+    /* padding: 10px 20px; */
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 983px) {
+  .switch-holder {
+    /* padding: 10px 20px; */
+    margin-left: 200px;
+    position: relative;
+    left: 180px;
+    bottom: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .switch-holder {
+    position:unset;
+  }
+}
+
+@media (max-width: 360px) {
+    .switch-holder {
+    margin-left: 0px;
+      
+    }
+  }
+
+  @media (max-width: 270px) {
+    .switch-holder {
+    width: 200px;
+    margin: 0;
+    }
+  }
+
 .switch-label {
-    width: 150px;
+  width: 150px;
 }
 
 .switch-label i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .switch-toggle {
-    height: 40px;
+  height: 40px;
 }
 
 .switch-toggle input[type="checkbox"] {
-    position: absolute;
-    opacity: 0;
-    z-index: -2;
+  position: absolute;
+  opacity: 0;
+  z-index: -2;
 }
 
 .switch-toggle input[type="checkbox"] + label {
-    position: relative;
-    display: inline-block;
-    width: 100px;
-    height: 40px;
-    border-radius: 20px;
-    margin: 0;
-    cursor: pointer;
-    box-shadow: inset -8px -8px 15px rgba(255,255,255,.6),
-                inset 10px 10px 10px rgba(0,0,0, .25);
-    
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 0;
+  cursor: pointer;
+  box-shadow: inset -8px -8px 15px rgba(255, 255, 255, 0.6),
+    inset 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .switch-toggle input[type="checkbox"] + label::before {
-    position: absolute;
-    content: 'OFF';
-    font-size: 13px;
-    text-align: center;
-    line-height: 25px;
-    top: 8px;
-    left: 8px;
-    width: 45px;
-    height: 25px;
-    border-radius: 20px;
-    background-color: #d1dad3;
-    box-shadow: -3px -3px 5px rgba(255,255,255,.5),
-                3px 3px 5px rgba(0,0,0, .25);
-    transition: .3s ease-in-out;
+  position: absolute;
+  content: "OFF";
+  font-size: 13px;
+  text-align: center;
+  line-height: 25px;
+  top: 8px;
+  left: 8px;
+  width: 45px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: #d1dad3;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.5),
+    3px 3px 5px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease-in-out;
 }
 
 .switch-toggle input[type="checkbox"]:checked + label::before {
-    left: 50%;
-    content: 'ON';
-    color: #fff;
-    background-color: #a83d7b;
-    box-shadow: -3px -3px 5px rgba(255,255,255,.5),
-                3px 3px 5px #a83d7b;
+  left: 50%;
+  content: "ON";
+  color: #fff;
+  background-color: #a83d7b;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.5), 3px 3px 5px #a83d7b;
 }
-
-
-
