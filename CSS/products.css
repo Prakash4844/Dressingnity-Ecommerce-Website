@@ -5,6 +5,10 @@
     margin-top: 50px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/ProductPage/banner2.jpg);
 }
+.txt-center {
+    text-align: center;
+}
+
 .banner2 .content2{
     text-align: center;
     padding-top: 100px;
@@ -16,7 +20,6 @@
 }
 .banner2 .content2 p{
     color: white;
-    text-shadow: 1px 1px 1px black;
     letter-spacing: 3px;
 }
 #bannerbtn2 button{
