@@ -4,6 +4,7 @@
     height: 50vh;
     margin-top: 50px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/ProductPage/banner2.jpg);
+    background-repeat: no-repeat;
 } 
 
 .banner2 .content2{
