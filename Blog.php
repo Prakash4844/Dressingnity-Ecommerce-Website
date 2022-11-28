@@ -44,21 +44,26 @@
         <img class="card-img-top" src="Images/SVG Samples/Dressingnity (LOGO-final).svg" alt="Card image cap">
         <div class="card-body" style="background-color: white;">
             <h1>What is "Dressingnity"? and How it came to be?</h1>
-            <p class="card-text">The History of Dressingnity.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text fw-bolder">The History of Dressingnity.</p>
+            <p class="card-text"><small class="text-muted">Last updated recently.</small></p>
 
-            <p class="card-text">The Complete history of Dressingnity.</p>
+            <p class="card-text fw-bold">The Complete history of Dressingnity.</p>
 
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit
-                amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Maecenas sed diam eget
-                risus varius blandit sit amet non magna. Nulla vitae elit libero, a pharetra augue. Integer posuere erat
-                a ante venenatis dapibus posuere velit aliquet.</p>
-            <p>Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus
-                posuere velit aliquet.
-                Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
-                justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque
-                nisl consectetur et.</p>
+            <p class="text-wrap">Dressingnity didn't start as Dressingnity, at first We were calling the brand “SSTP” 
+                Which is composed of initials of all the dev's name. Yeah, we know, How bland is that? 
+                Well if you do want to see the initial logo Then Here you go </p>
+                <p align="center">
+                <img src="Images/OLD Branding/Navbar_icon_Trans-1.png" width="50%" alt="SSTP_Logo"><br></p>
+                <p class="text-wrap">Now let's Go back a little further in time, as some of you might remember that we had 
+                already worked on a project a year back or so Named as
+                <a href="https://github.com/Prakash4844/Basic-ATM-Machine-Project-in-C" alt="NSTTPKS Bank Service">“NSTTPKS Bank Service”</a><br><br>
+                I will be honest here, the end of our last project was by no means a happy ending. 
+                There was confusion, conflicts, misunderstanding and whatnot and don't think that now there isn't, conflicts and misunderstanding are a part of growing up,
+                but I think that we have grown and learned from that.(atleast i believe we have).<br><br>
+                So we tried and compromised in order to resolve the anguish between us and from that we decided 
+                to make another project, i know this is getting stupider and stupider by word. and there's a proverb in
+                Hindi(आग को आग मारती है) so we thought why not we do the same. and rest is what you are seeing now...
+            </p>
 
         </div>
     </div>

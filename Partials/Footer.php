@@ -22,8 +22,8 @@
                                     <img style="width: 300px;" src="Images\SVG Samples\Dressingnity (LOGO-final).svg"
                                         class="img-fluid" alt="">
                                 </div>
-                                <p>Quisque orci nisl, viverra et sem ac, tincidunt egestas massa. Morbi est arcu, hendrerit
-                                    ac vehicula condimentum, euismod nec tortor praesent consequat urna.</p>
+                                <p>Dressingnity is an independent brand, our site have great variety in fashion for men and women as well
+                                    as youngsters of this age to truely dress for the occasion.</p>
                                 <ul class="social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>

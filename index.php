@@ -368,7 +368,7 @@
                     <h3 class="fs-5 popular-type">Top Rated</h3>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_1.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">Sundress</p>
                             <span>$ 20.00</span>
@@ -376,7 +376,7 @@
                     </div>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_2.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">Shirtdress</p>
                             <span>$ 20.00</span>
@@ -384,9 +384,9 @@
                     </div>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_3.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
-                            <p class="mb-0">Cardign</p>
+                            <p class="mb-0">Cardign-X</p>
                             <span>$ 20.00</span>
                         </div>
                     </div>
@@ -396,7 +396,7 @@
                     <h3 class="fs-5 popular-type">Best Selling</h3>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_1.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">Trousers</p>
                             <span>$ 20.00</span>
@@ -404,7 +404,7 @@
                     </div>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_2.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">Coat</p>
                             <span>$ 20.00</span>
@@ -412,7 +412,7 @@
                     </div>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_3.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">Dress</p>
                             <span>$ 20.00</span>
@@ -424,7 +424,7 @@
                     <h3 class="fs-5 popular-type">On Sale</h3>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_3.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">T-shirt</p>
                             <span>$ 20.00</span>
@@ -432,7 +432,7 @@
                     </div>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/on_sale_2.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">Jacket</p>
                             <span>$ 20.00</span>
@@ -440,7 +440,7 @@
                     </div>
                     <div class="d-flex align-items-start justify-content-center popular-product">
                         <img src="Images/HomePage/top_rated_1.jpg"
-                            alt="" class="img-fluid pe-3 w-25">
+                            alt="" class="img-fluid pe-3 w-25 rounded-3">
                         <div>
                             <p class="mb-0">Sari</p>
                             <span>$ 20.00</span>
