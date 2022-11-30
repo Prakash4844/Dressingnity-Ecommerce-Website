@@ -149,6 +149,7 @@ body {
 }
 .text-container h1 {
   margin-left: 30%;
+  margin: auto;
   color: #a83d7b;
   font-weight: 900;
   font-family: "Ubuntu", sans-serif;
@@ -158,12 +159,15 @@ body {
   font-weight: 900;
   font-family: "Ubuntu", sans-serif;
   color: #a83d7b;
+  margin: auto;
 }
 
 .text-container a {
   text-decoration: none;
   padding: 12px;
   margin: 50px 0px 0px 36%;
+  margin: auto;
+  padding: auto;
   /* background-color: #a83d7b; */
   border: 2px solid transparent;
   color: #a83d7b;
@@ -181,7 +185,7 @@ body {
   transition: 0.4s ease-out;
   transform: scale(1.08, 1.08);
 }
-@media screen and (max-width: 1600px) {
+@media all and (max-width: 1600px) {
   .about-container {
     width: 90%;
   }
@@ -193,7 +197,7 @@ body {
     font-size: 50px;
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .about-container {
     flex-direction: column;
   }
