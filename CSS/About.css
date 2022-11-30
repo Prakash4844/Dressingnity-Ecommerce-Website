@@ -162,6 +162,10 @@ body {
   margin: auto;
 }
 
+.text-container p {
+  text-align: center;
+}
+
 .text-container a {
   text-decoration: none;
   padding: 12px;
