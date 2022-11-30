@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dressingnity Home page</title>
-</head>
-
 <body>
     <!-- Cookie Banner -->
     <div id="cb-cookie-banner" class="rounded-3 shadow-sm alert alert-dark text-center mb-0" role="alert">

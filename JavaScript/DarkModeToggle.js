@@ -4,20 +4,16 @@ function toggleDarkMode(newState) {
     // style element to insert into the page when dark mode is enabled
     // (fixes the logo color to be white in dark mode)
     var darkModeModification = `<style class='dark-mode-mod'>
-    .Dressingnity_footer
-    {
+    .Dressingnity_footer{
         border-top: 0px;
     }
-    section
-    {
+    section{
         border-bottom: 0px;
     }    
-    body
-    {
+    body{
         background-color: inherit;
     }
-    #special 
-    {
+    #special {
         background-color: inherit;
     }
     </style>`;
