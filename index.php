@@ -44,7 +44,7 @@
     <section id="head-sec">
         <h4>Trade-in-offer</h4>
         <h2>Super value deal</h2>
-        <h1 >On all products</h1>
+        <h1>On all products</h1>
         <p>Save more with coupons & up to 15% off!</p>
         <a href = "#" class = "btn btn-warning">Shop Now</a>
 
