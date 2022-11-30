@@ -16,6 +16,9 @@ function toggleDarkMode(newState) {
     #special {
         background-color: inherit;
     }
+    .ri-moon-fill{
+        color: #a83d7b;
+      }
     </style>`;
     // turning on dark mode
     if (newState == "on") {
