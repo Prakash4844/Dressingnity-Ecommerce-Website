@@ -51,9 +51,11 @@
                                 <div class="FAQ-title">
                                     <details>
                                         <summary class="FAQ-descp">
-                                            How do I login on Dressingnity ?
+                                            How do I sign up for Dressingnity account ?
                                         </summary>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, sunt.
+                                       When you visit on Dressingnity,you will be presented with an Button on the top rigth to Sign in.
+                                       All you need to do is provide us with your name,email address and a password.Its that simple.
+
                                     </details>
 
                                 </div>
@@ -67,9 +69,9 @@
                                 <div class="FAQ-title">
                                     <details>
                                         <summary class="FAQ-descp">
-                                            How do I cart the prodcut ?
+                                            Why should I visit or shop on Dressingnity?
                                         </summary>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, sunt.
+                                        Dressingnity is an independent brand, our site have great variety in fashion with reasonable price for men and women as well as youngsters of this age to truely dress for the occasion.
                                     </details>
 
                                 </div>
@@ -82,9 +84,10 @@
                                 <div class="FAQ-title">
                                     <details>
                                         <summary class="FAQ-descp">
-                                            How do I cancel my Order ?
+                                            How can I contact for any problem ?
                                         </summary>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, sunt.
+                                      On the bottom right section,you'll see the contact details(email,mobile number).So you can visit them and 
+                                      contact us for any issue yo are facing.
                                     </details>
 
                                 </div>
@@ -95,9 +98,12 @@
                                 <div class="FAQ-title">
                                     <details>
                                         <summary class="FAQ-descp">
-                                            how do I know more about Dressingity ?
+                                            how do I know more about Dressingnity ?
                                         </summary>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, sunt.
+                                       To know about Dressingnity, all you need to do is go to the bottom section and click on About site.
+                                       To know some more about us, u can also visit our Blog page where u will get more information about our website.
+
+
                                     </details>
 
                                 </div>
