@@ -74,7 +74,7 @@
                 <!-- Team item -->
                 <div class="box col-xl-3 col-sm-6 mb-5">
                     <div class="bg-white rounded shadow-lg py-5 px-4"><img
-                            src="https://github.com/Prakash4844/Sample-CV-using-HTML-And-CSS-Dark/blob/main/Images/Prakash.jpg?raw=true"
+                            src="https://prakash4844.github.io/HTMLCV/Prakash.jpg"
                             alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                         <h5 class="mb-0">Prakash</h5><span class="small text-muted">DevOps & Front-End Developer</span>
                         <ul class="social mb-0 list-inline mt-3">

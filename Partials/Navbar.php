@@ -21,7 +21,7 @@
             <!-- Collapsible wrapper -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Left links -->
-                <ul class="navbar-nav me-3">
+                <ul class="navbar-nav mb-lg-0 me-3">
                     <li class="nav-item">
                         <div class="dropdown">
                             <a class="btn btn-light dropdown-toggle vio-outline" href="#" role="button"
@@ -32,7 +32,7 @@
                             <ul class="dropdown-menu dropdown-menu-light" style="margin-top: 17px;">
                                 <!-- Try to Fix Dropdown position by removing inline CSS -->
                                 <li>
-                                    <a class="dropdown-item" href="../index.php#collection">
+                                    <a class="dropdown-item menu-item" href="../index.php#collection">
                                         <i class="ri-genderless-line"></i> All</a>
                                 </li>
                                 <li>
@@ -40,11 +40,11 @@
                                 </li>
 
                                 <li>
-                                    <a class="dropdown-item" href="../index.php#special">
+                                    <a class="dropdown-item menu-item" href="../index.php#special">
                                         <i class="ri-t-shirt-2-line"></i> Men</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="../index.php#special-m">
+                                    <a class="dropdown-item menu-item" href="../index.php#special-m">
                                         <i class="ri-t-shirt-line"></i> Women</a>
                                 </li>
                             </ul>
@@ -53,7 +53,7 @@
                 </ul>
                 <!-- Left links -->
 
-                <form class="d-flex align-items-center w-100 form-search">
+                <form class="align-items-center w-100 form-search">
                     <div class="input-group">
                         <button class="rounded btn btn-light dropdown-toggle shadow-0 vio-outline" type="button"
                             data-bs-toggle="dropdown" aria-expanded="false" style="padding-bottom: 0.4rem;">
@@ -84,19 +84,19 @@
                     </div>
                 </form>
 
-                <ul class="navbar-nav ms-3">
-                    <li class="nav-item me-3">
-                        <a class="nav-link d-flex align-items-center vio-outline" href="Products.php">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex align-items-center nav-ico vio-outline" href="Products.php">
                             <i class="ri-shopping-bag-line"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link d-flex align-items-center me-3 vio-outline" href="cart.php">
+                        <a class="nav-link d-flex align-items-center nav-ico vio-outline" href="cart.php">
                             <i class="ri-shopping-cart-line"></i>
                         </a>
                     </li>
-                    <li class="nav-item" style="width: 65px;">
-                        <a class="btn btn-light vio-outline rounded nav-link d-flex align-items-center sign-in"
+                    <li class="nav-item" style="width: 80px;">
+                        <a class="btn btn-light vio-outline rounded nav-ico nav-link align-items-center sign-in"
                             href="Login.php">Sign In</a>
                     </li>
                 </ul>
