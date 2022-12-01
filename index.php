@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+	session_start();
+?>
 <html lang="en">
 
 <head>
@@ -35,6 +38,24 @@
     <?php
         include('Partials/Navbar.php')
     ?>
+
+
+<?php
+// PHP program to pop an alert
+// message box on the screen
+  
+// Function definition
+if(ISSET($_SESSION['success'])){
+function_alert("Sucessfully Logged in");
+}
+  
+function function_alert($message) {
+    // Display the alert box 
+    echo "<script>alert('$message');</script>";
+} 
+// Function call
+  
+?>
     <!-- Navbar Ends -->
 
 
