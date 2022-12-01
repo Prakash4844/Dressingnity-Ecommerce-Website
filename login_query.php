@@ -20,7 +20,7 @@
 			header('location:index.php');
 		}else{
 			$_SESSION['error'] = "Invalid username or password";
-			header('location: login.php');
+			header('location: Login.php');
 		}
 	}
 ?>

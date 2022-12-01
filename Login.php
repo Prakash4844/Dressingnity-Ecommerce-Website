@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php 
+//starting the session
+session_start();
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,18 +59,18 @@
                 </div>
                 <div class="error error-txt Play_font">Password can't be blank</div>
             </div>
-            <?php
-					//checking if the session 'error' is set. Erro session is the message if the 'Username' and 'Password' is not valid.
+           
+<?php
+					//checking if the session 'error' is set. error session is the message that the credetials are Do not match.
 					if(ISSET($_SESSION['error'])){
-			    ?>
-            <!-- Display Login Error message -->
-            <div class="alert alert-danger">
-                <?php echo $_SESSION['error']
-                    ?>
-            </div>
-            <?php
+				?>
+        <!-- Display registration error message -->
+        <div class="alert alert-danger">
+            <?php echo $_SESSION['error']?>
+        </div>
+        <?php
 					//Unsetting the 'error' session after displaying the message. 
-					session_unset($_SESSION['error']);
+					unset($_SESSION['error']);
 					}
 				?>
 
