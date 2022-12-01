@@ -66,7 +66,7 @@ body {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(180, 165, 247);
 }
 
-.navbar-nav{
+.navbar-nav {
   margin-left: 1rem !important;
 }
 
@@ -75,28 +75,28 @@ body {
 }
 
 @media (max-width: 991px) {
-  .navbar-nav{
+  .navbar-nav {
     margin: auto;
   }
-  
-.menu-item{
-  text-align: center;
-}
 
-.nav-item{
-  margin: auto auto 10px auto;
-}
+  .menu-item {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: auto auto 10px auto;
+  }
   .nav-link {
-  padding: 10px;
-}
+    padding: 10px;
+  }
 
-.navbar-nav{
-  margin-left: auto;
-}
+  .navbar-nav {
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 1920px) {
-  .nav-ico{
+  .nav-ico {
     margin-right: 1rem;
   }
 }
@@ -106,7 +106,7 @@ body {
     padding-left: 30px;
   }
 
-  .navbar-toggler{
+  .navbar-toggler {
     margin: auto;
   }
 }
@@ -119,8 +119,9 @@ body {
 height: 80vh;
 } */
 
-#head-sec{
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/HomePage/girl-shop.jpg);
+#head-sec {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../Images/HomePage/girl-shop.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -132,9 +133,10 @@ height: 80vh;
   align-items: flex-start;
   justify-content: center;
 }
-@media only screen and (min-width: 700px){
-  #head-sec{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/HomePage/sliderimg3.jpg);
+@media only screen and (min-width: 700px) {
+  #head-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../Images/HomePage/sliderimg3.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;

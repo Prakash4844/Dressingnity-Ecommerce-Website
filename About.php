@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dressingnity About</title>
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+
     <!-- RemixIcon CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    
+
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    
+
     <!-- DarkReader JavaScript CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="CSS/About.css">
@@ -31,8 +31,8 @@
 </head>
 
 <body>
-   <!-- Navbar Starts -->
-   <?php
+    <!-- Navbar Starts -->
+    <?php
         include('Partials/Navbar.php')
     ?>
     <!-- Navbar Ends -->
@@ -74,8 +74,8 @@
                 <!-- Team item -->
                 <div class="box col-xl-3 col-sm-6 mb-5">
                     <div class="bg-white rounded shadow-lg py-5 px-4"><img
-                            src="https://prakash4844.github.io/HTMLCV/Prakash.jpg"
-                            alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                            src="https://prakash4844.github.io/HTMLCV/Prakash.jpg" alt="" width="100"
+                            class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                         <h5 class="mb-0">Prakash</h5><span class="small text-muted">DevOps & Front-End Developer</span>
                         <ul class="social mb-0 list-inline mt-3">
                             <li class="list-inline-item"><a href="https://github.com/Prakash4844" target="_blank"
@@ -152,8 +152,8 @@
         </div>
     </section>
 
-   <!-- Footer Starts -->
-   <?php
+    <!-- Footer Starts -->
+    <?php
         include('Partials/Footer.php')
     ?>
     <!--Footer Ends-->
