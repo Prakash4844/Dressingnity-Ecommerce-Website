@@ -98,7 +98,7 @@
                     </li>
                     <?php
 					//checking if the session 'success' is set. Success session is the message that the credetials are successfully saved.
-					if(ISSET($_SESSION['success'])){
+					if(ISSET($_SESSION['Logged-in'])){
 				    ?>
                     <!-- Display registration success message -->
                     <div class="dropdown">
@@ -108,11 +108,11 @@
                         </button>
                         <ul class="dropdown-menu">
 
-                            <li><span class="dropdown-item-text"><?php echo $_SESSION['success']?></span><li>
+                            <li><span class="dropdown-item-text"><?php echo $_SESSION['Logged-in']?></span><li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">Account</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                            <li><a class="dropdown-item" href="Logout.php">Logout</a></li>
                         </ul>
                     </div>
 

@@ -16,7 +16,7 @@
 		$count = $row['count'];
 		
 		if($count > 0){
-			$_SESSION['success'] = "Logged in";
+			$_SESSION['Logged-in'] = "Logged-in";
 			header('location:index.php');
 		}else{
 			$_SESSION['error'] = "Invalid username or password";
