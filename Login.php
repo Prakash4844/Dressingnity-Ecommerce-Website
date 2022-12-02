@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php 
+//starting the session
+session_start();
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +13,18 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+
     <!-- RemixIcon CDN -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    
+
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     
     <!-- DarkReader JavaScript CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="CSS/Styles.css">
@@ -56,15 +61,18 @@
                 </div>
                 <div class="error error-txt Play_font">Password can't be blank</div>
             </div>
-            <?php
-					//checking if the session 'error' is set. Erro session is the message if the 'Username' and 'Password' is not valid.
+           
+<?php
+					//checking if the session 'error' is set. error session is the message that the credetials are Do not match.
 					if(ISSET($_SESSION['error'])){
 				?>
-				<!-- Display Login Error message -->
-					<div class="alert alert-danger"><?php echo $_SESSION['error']?></div>
-				<?php
+        <!-- Display registration error message -->
+        <div class="alert alert-danger">
+            <?php echo $_SESSION['error']?>
+        </div>
+        <?php
 					//Unsetting the 'error' session after displaying the message. 
-					session_unset($_SESSION['error']);
+					unset($_SESSION['error']);
 					}
 				?>
 
@@ -86,18 +94,18 @@
     include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
-    
+
     <!-- Bootstrap JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
     <!-- Bootstrap JS Bundle -->
-    
+
     <!-- Custom JS -->
     <script src="JavaScript/Cookies.js"></script>
     <!-- Custom JS -->
 
-    
+
     <!-- Darkmode-Toggle -->
     <script src="JavaScript/DarkModeToggle.js"></script>
 

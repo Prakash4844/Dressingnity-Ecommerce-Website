@@ -53,7 +53,6 @@ body {
 }
 
 @keyframes shake {
-
   0%,
   100% {
     margin-left: 0px;
@@ -119,13 +118,13 @@ body {
   color: #dc3545;
 }
 
-.login-form input:focus~.icon,
+.login-form input:focus ~ .icon,
 .login-form .field.valid .icon {
   color: #a83d7b;
 }
 
-.login-form .field.shake input:focus~.icon,
-.login-form .field.error input:focus~.icon {
+.login-form .field.shake input:focus ~ .icon,
+.login-form .field.error input:focus ~ .icon {
   color: #bfbfbf;
 }
 

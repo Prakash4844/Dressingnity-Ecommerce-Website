@@ -24,23 +24,22 @@
 
 @media (max-width: 768px) {
   .switch-holder {
-    position:unset;
+    position: unset;
   }
 }
 
 @media (max-width: 360px) {
-    .switch-holder {
+  .switch-holder {
     margin-left: 0px;
-      
-    }
   }
+}
 
-  @media (max-width: 270px) {
-    .switch-holder {
+@media (max-width: 270px) {
+  .switch-holder {
     width: 200px;
     margin: 0;
-    }
   }
+}
 
 .switch-label {
   width: 150px;

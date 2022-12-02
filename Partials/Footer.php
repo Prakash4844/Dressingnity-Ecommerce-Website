@@ -16,9 +16,9 @@
                                 <p>Dressingnity is an independent brand, our site have great variety in fashion for men and women as well
                                     as youngsters of this age to truely dress for the occasion.</p>
                                 <ul class="social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                                    <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                                    <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                                     </div>
                                     <div class="single_info">
                                         <div class="icon">
-                                            <i class="fas fa-map-marker-alt"></i>
+                                            <i class="ri-map-pin-fill"></i>
                                         </div>
                                         <div class="info">
                                             <p>Inmantec College,<span>Ghaziabad.</span></p>
@@ -109,7 +109,7 @@
                         <div class="col-lg-12">
                             <div class="copyright_text">
                                 <p>Copyright &copy; 2022 All rights reserved.</p>
-                                <p>Made with ❤️ by Team Quad-Core.</p>
+                                <p>Made with ❤️ + 🩸by Team Quad-Core.</p>
                             </div>
                         </div>
                     </div>

@@ -30,6 +30,11 @@ body {
 .sign-in {
   font-size: 15px;
   border: 1px solid #c980aa;
+  /* padding: 10px; */
+}
+
+.user-ico{
+  padding: 8px;
 }
 
 .phone-icon {
@@ -65,6 +70,55 @@ body {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgb(180, 165, 247);
 }
 
+.navbar-nav {
+  margin-left: 1rem !important;
+}
+
+.single-icon-mar {
+  margin-right: 1rem !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin: auto;
+  }
+
+  .menu-item {
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: auto auto 10px auto;
+  }
+  .nav-link {
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+  }
+
+  .user-ico{
+    margin: auto;
+  }
+}
+
+@media (max-width: 1920px) {
+  .nav-ico {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 373px) {
+  .navbar-brand {
+    padding-left: 30px;
+  }
+
+  .navbar-toggler {
+    margin: auto;
+  }
+}
+
 /* Navbar-End */
 
 /* Home page middle section start */
@@ -73,8 +127,9 @@ body {
 height: 80vh;
 } */
 
-#head-sec{
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/HomePage/girl-shop.jpg);
+#head-sec {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../Images/HomePage/girl-shop.jpg);
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -82,13 +137,14 @@ height: 80vh;
   padding: 0 80px;
   display: flex;
   flex-direction: column;
-  
+
   align-items: flex-start;
   justify-content: center;
 }
-@media only screen and (min-width: 700px){
-  #head-sec{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/HomePage/sliderimg3.jpg);
+@media only screen and (min-width: 700px) {
+  #head-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../Images/HomePage/sliderimg3.jpg);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -101,25 +157,22 @@ height: 80vh;
   }
 }
 
-#head-sec h1{
-color:#a80d65;
-font-size: 3.2rem;
+#head-sec h1 {
+  color: #a80d65;
+  font-size: 3.2rem;
 }
-
-
-
 
 /* Collections start */
 /* collection */
-.active-filter-btn{
-  background-color:#a80d65 !important;
-  color: rgb(235, 52, 137)!important;
-  border-color:#a83d7b !important;
+.active-filter-btn {
+  background-color: #a80d65 !important;
+  color: rgb(235, 52, 137) !important;
+  border-color: #a83d7b !important;
 }
-.filter-button-group .btn:hover{
+.filter-button-group .btn:hover {
   color: black !important;
 }
-.collection-img span{
+.collection-img span {
   top: 20px;
   right: 20px;
   width: 46px;
@@ -127,89 +180,88 @@ font-size: 3.2rem;
   border-radius: 50%;
 }
 
-
 /* special */
-.special-img span{
+.special-img span {
   top: 20px;
   right: 20px;
 }
-.special-list .btn{
-  padding: 8px 20px!important;
+.special-list .btn {
+  padding: 8px 20px !important;
 }
-.special-img img{
+.special-img img {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.special-img:hover img{
+.special-img:hover img {
   -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
-#popular{
-  background-color:    #FFf  ;
+#popular {
+  background-color: #fff;
 }
 
 /* testimonial section */
-#testimonials{
-  padding:7% 15%;
-  background-color:#7e9896;
+#testimonials {
+  padding: 7% 15%;
+  background-color: #7e9896;
   text-align: center;
   color: #000;
   height: 40vh;
 }
-.testimonial-image{
+.testimonial-image {
   width: 40%;
   border-radius: 100%;
   margin: 20px;
 }
 
-#press{
-  background-color:#7e9896;
+#press {
+  background-color: #7e9896;
   text-align: center;
   padding-bottom: 2%;
 }
-.press-logo{
+.press-logo {
   width: 18%;
   margin: 20px 20px 50px;
-  /* padding: 5px; */ 
+  /* padding: 5px; */
 }
-#pricing{
+#pricing {
   padding: 100px;
   text-align: center;
 }
-#pricing p{
+#pricing p {
   font-size: 1.5rem;
 }
-.card-body{
+.card-body {
   background-color: #bebebe;
- 
 }
 /* Testimonials end */
 
 /* banner */
 
-.banner{
+.banner {
   width: 100%;
   height: 50vh;
   margin-top: 5rem;
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/HomePage/banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../Images/HomePage/banner.jpg);
 }
-.banner .content{
+.banner .content {
   text-align: center;
   padding-top: 100px;
 }
-.banner .content h1{
+.banner .content h1 {
   color: white;
   text-shadow: 1px 1px 1px black;
   letter-spacing: 3px;
 }
-.banner .content p{
+.banner .content p {
   color: white;
   text-shadow: 1px 1px 1px black;
   letter-spacing: 3px;
 }
-#bannerbtn button{
+#bannerbtn button {
   width: 150px;
   height: 38px;
   background: transparent;
@@ -218,12 +270,11 @@ font-size: 3.2rem;
   transition: 0.5s ease;
   cursor: pointer;
 }
-#bannerbtn button:hover{
+#bannerbtn button:hover {
   background-color: #a83d7b;
   border: none;
 }
 /* banner */
-
 
 /* Home page middle section Ends */
 
@@ -319,24 +370,47 @@ font-size: 3.2rem;
   color: black;
 }
 
-.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info {
+.Dressingnity_footer
+  .widget_wrapper
+  .widget_contact
+  .contact_info
+  .single_info {
   max-width: 250px;
   display: flex;
   flex-wrap: wrap;
   /* margin-bottom: 20px; */
 }
 
-.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info .icon {
+.Dressingnity_footer
+  .widget_wrapper
+  .widget_contact
+  .contact_info
+  .single_info
+  .icon {
   font-size: 15px;
   color: #a83d7b;
   margin-right: 10px;
 }
 
-.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p a {
+.Dressingnity_footer
+  .widget_wrapper
+  .widget_contact
+  .contact_info
+  .single_info
+  .info
+  p
+  a {
   color: #7a808d;
 }
 
-.Dressingnity_footer .widget_wrapper .widget_contact .contact_info .single_info .info p span {
+.Dressingnity_footer
+  .widget_wrapper
+  .widget_contact
+  .contact_info
+  .single_info
+  .info
+  p
+  span {
   display: block;
 }
 
@@ -376,7 +450,6 @@ font-size: 3.2rem;
 }
 
 /* Footer-End */
-
 
 /* Cookies Hai kya 🥲 */
 #cb-cookie-banner {
