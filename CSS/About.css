@@ -213,3 +213,43 @@ body {
     align-items: center;
   }
 }
+@media screen and (max-width: 400px) {
+  .AboutUs {
+    margin-top: 100px;
+  }
+  .AboutSite{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .AboutUs {
+    margin-top: 150px;
+  }
+  .AboutSite {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .AboutUs {
+    margin-top: 180px;
+  }
+  .AboutSite {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-height: 800px) {
+  .AboutUs {
+    margin-top: 180px;
+  }
+  .AboutSite {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-height: 550px) {
+  .AboutUs {
+    margin-top: 250px;
+  }
+  .AboutUs {
+    margin-top: 150px;
+  }
+}
