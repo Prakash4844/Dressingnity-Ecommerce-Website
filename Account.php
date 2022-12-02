@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php 
-//starting the session
-session_start();
+<?php
+	session_start();
 ?>
 <head>
     <meta charset="UTF-8">
@@ -20,6 +19,8 @@ session_start();
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
     <!-- DarkReader JavaScript CDN -->
     <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.58/darkreader.min.js"></script>

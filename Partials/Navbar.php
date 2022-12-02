@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <body>
     <!-- Navbar Starts -->
     <nav class="shadow sticky-top ms-1 me-1 rounded-bottom navbar navbar-expand-lg navbar-light bg-light">
