@@ -102,17 +102,21 @@
 				    ?>
                     <!-- Display registration success message -->
                     <div class="dropdown">
-                        <button class="btn btn-light rounded shadow-0" style="color: #a80d65; padding: 8px"
-                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-circle-user fa-2xl"></i>
-                        </button>
-                        <ul class="dropdown-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <button class="btn mb-lg-0 me-4 shadow-0 nav-link" style="color: #a80d65; "
+                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-solid fa-circle-user fa-2xl"></i>
+                                </button>
+                                <ul class="dropdown-menu">
 
-                            <li><span class="dropdown-item-text"><?php echo $_SESSION['Logged-in']?></span><li>
-                                <hr class="dropdown-divider">
+                                    <li><span class="dropdown-item-text"><?php echo $_SESSION['Logged-in']?></span><li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Account</a></li>
+                                    <li><a class="dropdown-item" href="Logout.php">Logout</a></li>
+                                </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#">Account</a></li>
-                            <li><a class="dropdown-item" href="Logout.php">Logout</a></li>
                         </ul>
                     </div>
 

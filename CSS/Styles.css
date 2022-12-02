@@ -33,6 +33,10 @@ body {
   /* padding: 10px; */
 }
 
+.user-ico{
+  padding: 8px;
+}
+
 .phone-icon {
   font-size: 18px;
 }
@@ -92,6 +96,10 @@ body {
 
   .navbar-nav {
     margin-left: auto;
+  }
+
+  .user-ico{
+    margin: auto;
   }
 }
 
