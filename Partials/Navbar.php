@@ -1,6 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
-    
+
 <body>
     <!-- Navbar Starts -->
     <nav class="shadow sticky-top ms-1 me-1 rounded-bottom navbar navbar-expand-lg navbar-light bg-light">
@@ -95,10 +96,41 @@
                             <i class="ri-shopping-cart-line"></i>
                         </a>
                     </li>
+                    <?php
+					//checking if the session 'success' is set. Success session is the message that the credetials are successfully saved.
+					if(ISSET($_SESSION['success'])){
+				    ?>
+                    <!-- Display registration success message -->
+                    <div class="dropdown">
+                        <button class="btn btn-light rounded shadow-0" style="color: #a80d65; padding: 8px"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-circle-user fa-2xl"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+
+                            <li><span class="dropdown-item-text"><?php echo $_SESSION['success']?></span><li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Account</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+
+                    <?php
+					//Unsetting the 'success' session after displaying the message. 
+					} 
+                    else{?>
                     <li class="nav-item" style="width: 80px;">
                         <a class="btn btn-light vio-outline rounded nav-ico nav-link align-items-center sign-in"
                             href="Login.php">Sign In</a>
                     </li>
+
+                    <?php
+                   }
+                   ?>
+
+
+
                 </ul>
             </div>
 
@@ -107,4 +139,4 @@
         <!-- Container wrapper -->
     </nav>
     <!-- Navbar Ends -->
-    </body>
+</body>
