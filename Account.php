@@ -40,11 +40,15 @@
     ?>
     <!-- Navbar Ends -->
     <ul>
-    <li><span class="text-center"><?php echo  $row['username']?></span></li>
-    <li><span class="text-center"><?php echo $LoggedEmail?></span><li>
-    <li><span class="text-center"><?php echo $LoggedFirstName?></span><li>
-    <li><span class="text-center"><?php echo $LoggedLastName?></span><li>
-    <li><span class="text-center"><?php echo $_SESSION['username']?></span><li>
+    <li><span class="text-center"><?php echo $_SESSION['loggedusername']?></span></li>
+    
+    <li><span class="text-center"><?php echo $_SESSION['loggedemail']?></span></li>
+    
+    <li><span class="text-center"><?php echo $_SESSION['loggedfirstname']?></span></li>
+    
+    <li><span class="text-center"><?php echo $_SESSION['loggedlastname']?></span></li>
+    
+    <li><span class="text-center"><?php echo  $_SESSION['loggedpassword']?></span></li>
     </ul>
     <img src="Images/Wave SVG.svg" alt="wave">
     <p align=center>

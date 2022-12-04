@@ -27,12 +27,21 @@
 		$result = $conn->query($Userinfoquery);
 		foreach($result as $row)
     	{
-        	$LoggedUsername = $row['username'] . "\n";
-			print_r($LoggedUsername);
-			$LoggedEmail = $row['email'] . "\n";
-			$LoggedFirstName = $row['firstname'] . "\n";
-			$LoggedLastName = $row['lastname'] . "\n";
-			break;
+    	if($row['username'] == $username) 
+    	{
+    	$_SESSION['loggedusername'] = $row['username'];
+    	$_SESSION['loggedemail'] = $row['email'];
+    	$_SESSION['loggedfirstname'] = $row['firstname'];
+    	$_SESSION['loggedlastname'] = $row['lastname'];
+    	$_SESSION['loggedpassword'] = $row['password'];
+    	break;
+    	} 
+     //   	$LoggedUsername = $row['username'] . "\n";
+	//		print_r($LoggedUsername);
+		//	$LoggedEmail = $row['email'] . "\n";
+			//$LoggedFirstName = $row['firstname'] . "\n";
+	//		$LoggedLastName = $row['lastname'] . "\n";
+	//		break;
     	}
 		// Test Code
 			$_SESSION['username'] = $username;
