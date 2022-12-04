@@ -49,11 +49,20 @@ session_start();
 
         <div class="field email">
             <div class="input-area Play_font">
-                <input type="text" placeholder="Email Address" required="required" name="username">
+                <input type="text" placeholder="Email Address" required="required" name="email">
                 <i class="icon fas fa-envelope"></i>
                 <i class="error error-icon fas fa-exclamation-circle"></i>
             </div>
             <div class="error error-txt Play_font">Email can't be blank</div>
+        </div>
+
+        <div class="field username">
+            <div class="input-area Play_font">
+                <input type="text" placeholder="Username" required="required" name="username">
+                <i class="icon fa-solid fa-user"></i>
+                <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt Play_font">Username can't be blank</div>
         </div>
 
         <div class="field password">
@@ -99,7 +108,7 @@ session_start();
         <!-- <div class="pass-txt Play_font"><a href="#">Forgot password?</a></div> -->
         <input name="register" type="submit" value="Register">
         <!-- Link for redirecting to Login Page -->
-        <a href="login.php">Already a member? Log in here...</a>
+        <a href="Login.php">Already a member? Log in here...</a>
 
     </form>
 

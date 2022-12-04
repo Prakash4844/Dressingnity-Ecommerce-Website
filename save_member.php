@@ -7,14 +7,16 @@
 	
 	if(ISSET($_POST['register'])){
 		// Setting variables
+		$email = $_POST['email'];
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		$firstname = $_POST['firstname'];
 		$lastname = $_POST['lastname'];
 		
 		// Insertion Query
-		$query = "INSERT INTO `member` (username, password, firstname, lastname) VALUES(:username, :password, :firstname, :lastname)";
+		$query = "INSERT INTO `member` (email, username, password, firstname, lastname) VALUES(:email ,:username, :password, :firstname, :lastname)";
 		$stmt = $conn->prepare($query);
+		$stmt->bindParam(':email', $email);
 		$stmt->bindParam(':username', $username);
 		$stmt->bindParam(':password', $password);
 		$stmt->bindParam(':firstname', $firstname);

@@ -107,8 +107,8 @@
                                     <i class="fa-solid fa-circle-user fa-2xl"></i>
                                 </button>
                                 <ul class="dropdown-menu">
-
-                                    <li><span class="dropdown-item-text"><?php echo $_SESSION['Logged-in']?></span><li>
+                                    <li><span class="dropdown-item-text text-center"><?php echo $_SESSION['username']?></span></li>
+                                    <li><span class="dropdown-item-text text-center"><?php echo $_SESSION['Logged-in']?></span><li>
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li><a class="dropdown-item" href="Account.php">Account</a></li>

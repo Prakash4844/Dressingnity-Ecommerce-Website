@@ -44,13 +44,13 @@ session_start();
     <div class="wrapper">
         <header>Login</header>
         <form class="login-form" action="login_query.php" method="POST">
-            <div class="field email">
+            <div class="field username">
                 <div class="input-area Play_font">
-                    <input type="text" name="username" required="required" placeholder="Email Address">
-                    <i class="icon fas fa-envelope"></i>
+                    <input type="text" name="username" required="required" placeholder="username">
+                    <i class="icon fa-solid fa-user"></i>
                     <i class="error error-icon fas fa-exclamation-circle"></i>
                 </div>
-                <div class="error error-txt Play_font">Email can't be blank</div>
+                <div class="error error-txt Play_font">username can't be blank</div>
             </div>
 
             <div class="field password">

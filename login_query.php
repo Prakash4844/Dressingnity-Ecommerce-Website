@@ -16,6 +16,8 @@
 		$count = $row['count'];
 		
 		if($count > 0){
+			
+			$_SESSION['username'] = $username;
 			$_SESSION['Logged-in'] = "Logged-in";
 			header('location:index.php');
 		}else{
