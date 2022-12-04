@@ -17,6 +17,24 @@
 		
 		if($count > 0){
 			
+		// Test Code
+		$Userinfoquery = "SELECT * FROM `member`";
+		// $statement = $conn->prepare($Userinfoquery);
+		// $statement->execute();
+		// $row = $statement->fetchAll();
+		// $LoggedUsername = $row['username'];
+
+		$result = $conn->query($Userinfoquery);
+		foreach($result as $row)
+    	{
+        	$LoggedUsername = $row['username'] . "\n";
+			print_r($LoggedUsername);
+			$LoggedEmail = $row['email'] . "\n";
+			$LoggedFirstName = $row['firstname'] . "\n";
+			$LoggedLastName = $row['lastname'] . "\n";
+			break;
+    	}
+		// Test Code
 			$_SESSION['username'] = $username;
 			$_SESSION['Logged-in'] = "Logged-in";
 			header('location:index.php');
