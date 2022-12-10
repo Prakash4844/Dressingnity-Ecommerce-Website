@@ -19,6 +19,14 @@ function toggleDarkMode(newState) {
     .ri-moon-fill{
         color: #a83d7b;
     }
+    ::selection {
+        background-color: #a83d7b !important;
+        color: white !important;
+    }
+    ::-moz-selection {
+        background-color: #a83d7b !important;
+        color: white !important;
+    }
     </style>`;
     // turning on dark mode
     if (newState == "on") {
