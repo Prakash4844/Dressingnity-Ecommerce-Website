@@ -25,6 +25,16 @@ body {
   border-color: #a83d7b !important;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #a83d7b;
+}
+
+::selection {
+  color: white;
+  background: #a83d7b;
+}
+
 /* Navbar-Start */
 
 .sign-in {
