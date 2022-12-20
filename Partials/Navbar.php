@@ -102,7 +102,7 @@
                     <div class="dropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item ">
-                                <button class="btn mb-lg-0 me-4 shadow-0 nav-link" style="color: #a80d65; "
+                                <button class="btn mb-lg-0 me-4 shadow-0 nav-link" style="color: #a83d7b; "
                                     type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fa-solid fa-circle-user fa-2xl"></i>
                                 </button>
