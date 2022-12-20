@@ -39,7 +39,17 @@
         include('Partials/Navbar.php')
     ?>
     <!-- Navbar Ends -->
-
+    <ul>
+    <li><span class="text-center"><?php echo $_SESSION['loggedusername']?></span></li>
+    
+    <li><span class="text-center"><?php echo $_SESSION['loggedemail']?></span></li>
+    
+    <li><span class="text-center"><?php echo $_SESSION['loggedfirstname']?></span></li>
+    
+    <li><span class="text-center"><?php echo $_SESSION['loggedlastname']?></span></li>
+    
+    <li><span class="text-center"><?php echo  $_SESSION['loggedpassword']?></span></li>
+    </ul>
     <img src="Images/Wave SVG.svg" alt="wave">
     <p align=center>
         <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=50&pause=1000&color=A83D7B&width=600&height=80&lines=Work+in+Progress..." alt="Typing SVG" /></a>    
