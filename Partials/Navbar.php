@@ -111,7 +111,7 @@
                                     <li><span class="dropdown-item-text text-center"><?php echo $_SESSION['Logged-in']?></span><li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="Account.php">Account</a></li>
+                                    <li><a class="dropdown-item" href="UserAccount.php">Account</a></li>
                                     <li><a class="dropdown-item" href="Logout.php">Logout</a></li>
                                 </ul>
                             </li>
