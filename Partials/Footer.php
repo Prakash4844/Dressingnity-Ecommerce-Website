@@ -36,6 +36,7 @@
                                     <li><a href="sitemap.xml">Sitemap</a></li>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="Products.php">Products</a></li>
+                                    <li><a href="userAccount.php">userAccount</a></li>
                                 </ul>
                             </div>
                         </div>
