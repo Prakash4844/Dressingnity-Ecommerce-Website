@@ -7,7 +7,7 @@
         <div class="container-fluid">
 
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="https://prakash4844.github.io/Dressingnity-Ecommerce-Website/"><img
+            <a class="navbar-brand" href="https://dressingnity.rf.gd/"><img
                     style="height:60px;" src="Images\SVG Samples\Dressingnity (LOGO-final).svg" alt="BrandLogo"></a>
 
             <!-- Toggle button -->

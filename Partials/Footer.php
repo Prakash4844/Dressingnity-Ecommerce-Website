@@ -10,8 +10,9 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="widget widegt_about">
                                 <div class="widget_title">
+                                <a class="navbar-brand" href="https://dressingnity.rf.gd/">
                                     <img style="width: 300px;" src="Images\SVG Samples\Dressingnity (LOGO-final).svg"
-                                        class="img-fluid" alt="">
+                                        class="img-fluid" alt=""></a>
                                 </div>
                                 <p>Dressingnity is an independent brand, our site have great variety in fashion for men and women as well
                                     as youngsters of this age to truely dress for the occasion.</p>
