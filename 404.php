@@ -54,7 +54,7 @@
                     followed may either be broken or no longer exists. Please try again, or take a look at our.</p>
             </div>
             <div class="error__nav e-nav">
-                <a href="index.php" target="_blanck" class="e-nav__link"></a>
+                <a href="index.php" class="e-nav__link"></a>
             </div>
         </div>
         <!-- END Content -->
