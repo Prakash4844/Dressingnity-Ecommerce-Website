@@ -422,8 +422,8 @@ button {
   display: inline-block;
   vertical-align: top;
   margin: 0 15px;
-  border: 1px solid #181828;
-  color: #181828;
+  border: 1px solid #a83d7b;
+  color: #a83d7b;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -436,7 +436,7 @@ button {
 .e-nav__link:before {
   content: "";
   height: 200px;
-  background: #212121;
+  background: #a83d7b;
   position: absolute;
   top: 70px;
   right: 70px;
@@ -456,6 +456,7 @@ button {
 
 .e-nav__link:after {
   content: "Home Page";
+  /* color: #; */
 }
 
 .e-nav__link:hover:before {
