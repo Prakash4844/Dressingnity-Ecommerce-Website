@@ -56,10 +56,10 @@
                                 <div class="FAQ-title">
                                     <details>
                                         <summary class="FAQ-descp">
-                                            How do I sign up for Dressingnity account ?
+                                            How do I sign-up/Register for a Dressingnity account ?
                                         </summary>
                                         When you visit on Dressingnity,you will be presented with an Button on the top
-                                        rigth to Sign in.
+                                        right to Sign-in/Register.
                                         All you need to do is provide us with your name,email address and a password.Its
                                         that simple.
 
