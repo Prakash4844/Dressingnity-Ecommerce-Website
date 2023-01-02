@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="CSS/FAQ.css">
 
     <!-- Favicon -->
-    <link rel="icon" href="Images/Fevicon/Dressingnity SVG.png">
+    <link rel="icon" href="Images/SVG Samples/Dressingnity recolor Logo.png">
 
 </head>
 

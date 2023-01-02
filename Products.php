@@ -30,7 +30,7 @@
 
     <link rel="stylesheet" href="CSS/products.css">
     <!-- Favicon -->
-    <link rel="icon" href="Images/Fevicon/Dressingnity SVG.png">
+    <link rel="icon" href="Images/SVG Samples/Dressingnity recolor Logo.png">
 </head>
 
 <body>
