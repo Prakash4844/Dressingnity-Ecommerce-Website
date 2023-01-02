@@ -332,7 +332,7 @@ button {
 /***********************************/
 /* 2.1. Section error */
 .error {
-  min-height: 50vh;
+  min-height: 60vh;
   position: relative;
   /* padding: 240px 0; */
   box-sizing: border-box;
@@ -375,6 +375,18 @@ button {
   max-width: 960px;
   margin: 0 auto;
   color: #a83d7b;
+}
+
+.message__Head{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  max-width: 960px;
+  margin: 0 auto;
+  color: #a83d7b;
+  font-size: 6.6rem;
+
 }
 
 .message__text {
@@ -500,7 +512,7 @@ button {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 710px) {
   body,
   html {
     max-height: 100vh;
@@ -517,7 +529,7 @@ button {
     height: 100vh;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 690px) {
   .message__title {
     font-size: 36px;
     padding-bottom: 20px;
