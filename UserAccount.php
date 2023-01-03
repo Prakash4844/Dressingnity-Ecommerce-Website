@@ -39,7 +39,7 @@ session_start();
 
   <!-- Navbar Starts -->
   <?php
-  include('Partials/Navbar.php')
+	include('Partials/Navbar.php')
   ?>
 
   <!-- Navbar Ends -->
@@ -52,7 +52,7 @@ session_start();
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card border-0 shadow rounded-3 my-5">
-          <div align=center class="card-body p-4 p-sm-5">
+          <div align=center class="card-Body p-4 p-sm-5">
             <i class="fa-solid fa-circle-user extra-lg vio-outline"></i>
             <hr>
             <h6 align=left>Email</h6>
@@ -108,19 +108,17 @@ session_start();
   </div>
   </div>
 
+   <!-- Footer Starts -->
+   <?php
+        include('Partials/Footer.php')
+    ?>
+    <!--Footer Ends-->
 
-
-  <!-- Footer Starts -->
-  <?php
-  include('Partials/Footer.php')
-  ?>
-  <!--Footer Ends-->
-
-  <!-- Cookie Banner -->
-  <?php
-  include('Partials/Cookies.php')
-  ?>
-  <!-- End of Cookie Banner -->
+    <!-- Cookie Banner -->
+    <?php
+        include('Partials/Cookies.php')
+    ?>
+    <!-- End of Cookie Banner -->
 
   <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

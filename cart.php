@@ -98,7 +98,7 @@
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials/Cookies.php');
+        include('Partials/Cookies.php');
     ?>
     <!-- End of Cookie Banner -->
 

@@ -35,7 +35,7 @@ session_start();
 
 </head>
 <!-- Navbar Starts -->
-<?php
+    <?php
         include('Partials/Navbar.php')
     ?>
 <!-- Navbar Ends -->
@@ -116,7 +116,7 @@ session_start();
 
 
 <!-- Footer Starts -->
-<?php
+    <?php
         include('Partials/Footer.php')
     ?>
 <!--Footer Ends-->

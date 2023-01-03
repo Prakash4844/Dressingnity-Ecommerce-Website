@@ -32,7 +32,7 @@
 <body>
     <!-- Navbar Starts -->
     <?php
-    include('Partials/Navbar.php')
+        include('Partials/Navbar.php')
     ?>
     <!-- Navbar Ends -->
 
@@ -64,7 +64,7 @@
 
     <!-- Footer Starts -->
     <?php
-    include('Partials/Footer.php')
+        include('Partials/Footer.php')
     ?>
     <!--Footer Ends-->
 

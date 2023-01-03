@@ -335,13 +335,12 @@
     </div>
     <div class="container">
         <h3 style="font-weight: bold;">PRODUCT.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero eius ipsam incidunt illum totam
-            nostrum quidem sit cumque fugit. Accusamus rem praesentium labore tempore ullam porro quaerat fugiat cum
-            ipsum, sint perferendis voluptate ad, quod reiciendis officia! In voluptate quae expedita sunt eum placeat
-            alias soluta. Rem commodi, impedit error doloribus ratione at provident beatae, aut doloremque sunt possimus
-            voluptas recusandae nam aliquid eos quia minus harum repellat quae eveniet laborum dolore esse voluptate
-            sed. Voluptate ullam dolor sapiente neque labore hic nam odio qui consectetur porro minima nesciunt suscipit
-            vitae obcaecati reiciendis itaque ipsum unde, debitis nemo soluta!</p>
+        <p>Dressingnity is a start-up E-commerce establishment that will sell fashionable clothing to men, women, teens
+            of the genZ generation. We will locate Dressingnity on Dressingnity.fr.gd, which is a
+            Website
+            Fashion destination for all. While our initial goal is to be affordable, expansion plans include
+            potentially franchising our retail store and/or building a well-recognized brand name. In turn, we would
+            hope to penetrate a sizable portion of the online E-commerce market.</p>
 
         <hr>
     </div>
@@ -378,7 +377,7 @@
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials/Cookies.php')
+        include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
 

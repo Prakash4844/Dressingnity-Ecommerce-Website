@@ -46,7 +46,7 @@
 
     <div class="card mb-3 container blog-page shadow-sm">
         <img class="card-img-top" src="Images/SVG Samples/Dressingnity (LOGO-final).svg" alt="Card image cap">
-        <div class="card-body" style="background-color: white;">
+        <div style="background-color: white;">
             <h1>What is "Dressingnity"? and How it came to be?</h1>
             <p class="card-text fw-bolder">The History of Dressingnity.</p>
             <p class="card-text"><small class="text-muted">Last updated recently.</small></p>
@@ -86,7 +86,7 @@
 
     <!-- Cookie Banner -->
     <?php
-    include('Partials/Cookies.php')
+        include('Partials/Cookies.php')
     ?>
     <!-- End of Cookie Banner -->
 
