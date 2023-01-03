@@ -309,15 +309,15 @@
 
 
                 <div class="carousel-item active">
-                    <h2>I no longer have to sniff other cats for love. Woof.</h2>
+                    <h2>Fashion is about dressing according to what’s fashionable. Style is more about being yourself.</h2>
 
-                    <em>Pebbles, New York</em>
+                    <em>Oscar de la Renta</em>
                 </div>
 
                 <div class="carousel-item ">
-                    <h2 class="testimonial-text">My cat ,they've found the rhfy grbgry rtrgtg</h2>
+                    <h2 class="testimonial-text">The joy of dressing is an art.</h2>
 
-                    <em>Beverly, Illinois</em>
+                    <em>John Galliano</em>
                 </div>
 
             </div>
@@ -355,7 +355,7 @@
     <div class="banner">
         <div class="content">
             <h1>Get Up To 50% Off</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi?</p>
+            <p>BRANDS YOU LOVE!</p>
             <div id="bannerbtn"><button>SHOP NOW</button></div>
         </div>
     </div>

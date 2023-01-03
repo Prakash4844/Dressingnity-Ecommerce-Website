@@ -44,7 +44,7 @@
     <div class="banner2">
         <div class="content2">
             <h1>Get More Product</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, animi?</p>
+            <p>"THE SECRET OF GREAT STYLE IS TO FEEL GOOD IN WHAT YOU WEAR!"</p>
             <div id="bannerbtn2"><button>SHOP NOW</button></div>
         </div>
     </div>
@@ -58,7 +58,7 @@
                     <img src="Images/ProductPage/p1.png" alt="">
                     <div class="card-body">
                         <h3>Girls Heel</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Black Heels online.</p>
                         <div class="star">
 
                         </div>
@@ -71,7 +71,7 @@
                     <img src="Images/ProductPage/p2.png" alt="">
                     <div class="card-body">
                         <h3>Men Hoodie</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Men Hoodie online.</p>
                         <div class="star">
 
                         </div>
@@ -84,7 +84,7 @@
                     <img src="Images/ProductPage/p3.png" alt="">
                     <div class="card-body">
                         <h3>Smart Watch</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Smart Watch.</p>
                         <div class="star">
 
                         </div>
@@ -97,7 +97,7 @@
                     <img src="Images/ProductPage/p4.png" alt="">
                     <div class="card-body">
                         <h3>Men T-Shirt</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Men T-Shirt.</p>
                         <div class="star">
 
                         </div>
@@ -113,12 +113,8 @@
                     <img src="Images/ProductPage/p5.png" alt="">
                     <div class="card-body">
                         <h3>Hand Bag</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Hand Bag.</p>
                         <div class="star">
-
-
-
-
 
                         </div>
                         <h5>$100.5 <strike>$120.30</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
@@ -130,7 +126,7 @@
                     <img src="Images/ProductPage/p6.png" alt="">
                     <div class="card-body">
                         <h3>Sport Shoes</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Sport Shoes.</p>
                         <div class="star">
 
                         </div>
@@ -144,7 +140,7 @@
                     <img src="Images/ProductPage/p7.png" alt="">
                     <div class="card-body">
                         <h3>Girls Heel</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Girls Heel.</p>
                         <div class="star">
 
                         </div>
@@ -157,7 +153,7 @@
                     <img src="Images/ProductPage/p8.png" alt="">
                     <div class="card-body">
                         <h3>Means Jeans</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Means Jeans.</p>
                         <div class="star">
 
                         </div>
@@ -172,7 +168,7 @@
                     <img src="Images/ProductPage/p9.jpg" alt="">
                     <div class="card-body">
                         <h3>Dark Pant</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Buy Dark Pant Online.</p>
                         <div class="star">
 
                         </div>
@@ -184,8 +180,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/p10.jpg" alt="">
                     <div class="card-body">
-                        <h3>Mwalk Billies</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Girls Juti</h3>
+                        <p>Buy Girls juti.</p>
                         <div class="star">
 
                         </div>
@@ -197,8 +193,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/p11.jpg" alt="">
                     <div class="card-body">
-                        <h3>Sweet Shirt</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Gray Hoodie</h3>
+                        <p>Buy Gray Hoodie.</p>
                         <div class="star">
 
                         </div>
@@ -210,8 +206,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/p12.jpg" alt="">
                     <div class="card-body">
-                        <h3>Black T-Shirt</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Men Shirt</h3>
+                        <p>Buy Men Shirt.</p>
                         <div class="star">
 
                         </div>
@@ -225,8 +221,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/best_selling_1.jpg" alt="">
                     <div class="card-body">
-                        <h3>Dark Pant</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Men Coat</h3>
+                        <p>Buy Men coat.</p>
                         <div class="star">
 
                         </div>
@@ -238,8 +234,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/best_selling_2.jpg" alt="">
                     <div class="card-body">
-                        <h3>Mwalk Billies</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Coat</h3>
+                        <p>Buy coat online.</p>
                         <div class="star">
 
                         </div>
@@ -251,8 +247,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/best_selling_3.jpg" alt="">
                     <div class="card-body">
-                        <h3>Sweet Shirt</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>T-Shirt</h3>
+                        <p>Buy T-Shirt Online.</p>
                         <div class="star">
 
                         </div>
@@ -264,8 +260,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/best_selling_1.jpg" alt="">
                     <div class="card-body">
-                        <h3>Black T-Shirt</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Men Coat</h3>
+                        <p>Buy Men Coat.</p>
                         <div class="star">
 
                         </div>
@@ -279,8 +275,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/c_undershirt.png" alt="">
                     <div class="card-body">
-                        <h3>Dark Pant</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Girls Top</h3>
+                        <p>Buy Girls Blue Top.</p>
                         <div class="star">
 
                         </div>
@@ -292,8 +288,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/c_shirt-girl.png" alt="">
                     <div class="card-body">
-                        <h3>Mwalk Billies</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Girls Top</h3>
+                        <p>Buy Girls Top.</p>
                         <div class="star">
                         </div>
                         <h5>$6.50 <strike>$10.50</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
@@ -304,8 +300,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/c_pant_girl.png" alt="">
                     <div class="card-body">
-                        <h3>Sweet Shirt</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Girls Jeans</h3>
+                        <p>But Girls Jeans.</p>
                         <div class="star">
 
                         </div>
@@ -317,8 +313,8 @@
                 <div class="card">
                     <img src="Images/ProductPage/c_polo-shirt.png" alt="">
                     <div class="card-body">
-                        <h3>Black T-Shirt</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h3>Girls Top</h3>
+                        <p>Buy Girls Top.</p>
                         <div class="star">
 
                         </div>
