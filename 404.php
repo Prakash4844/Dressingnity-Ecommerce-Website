@@ -36,15 +36,6 @@
     ?>
     <!-- Navbar Ends -->
 
-    <!--dust particel-->
-    <div>
-        <div class="starsec"></div>
-        <div class="starthird"></div>
-        <div class="starfourth"></div>
-        <div class="starfifth"></div>
-    </div>
-    <!--Dust particle end--->
-
     <section class="error">
         <!-- Content -->
         <div class="error__content">
