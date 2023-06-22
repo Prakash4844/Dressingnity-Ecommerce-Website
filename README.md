@@ -17,5 +17,7 @@ This Version use all the technology of Static Site with PHP and SQLite for Backe
 
 ![Sitemap](Screenshots\Sitemap\Sitemap-Dark.png)
 <!-- Website Visitor -->
-<p align="center"><img align="center" src="https://visitor-badge.glitch.me/badge?page_id=sagargoswami2001.sagargoswami2001" /></p>
+ <p align="center"><img src="https://visitor-badge.laobi.icu/badge?page_id=Prakash4844.Prakash4844" alt="Prakash4844" />
+
+</p>
 
