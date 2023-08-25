@@ -22,6 +22,8 @@ $ docker pull prakash4844/dressingnity:latest
 $ docker run -p 80:8080 prakash4844/dressingnity:latest
 ```
 
+open `localhost:8080` in browser and profit!!!
+
 <h4>Manually</h4>
 
 run following commands in terminal:
@@ -30,9 +32,12 @@ Prerequisites: Docker, git must be installed in your system
 ```bash
 $ git clone https://github.com/Prakash4844/Dressingnity-Ecommerce-Website.git
 $ cd Dressingnity-Ecommerce-Website'
-$ docker build -t dressingnity:v1 .
-$ docker run -p 80:8080 dressingnity:v1
+$ docker build -t dressingnity:latest .
+$ docker run -p 8080:8080 dressingnity:latest
 ```
+
+open `localhost:8080` in browser and profit!!!
+
 
 
 Checkout Static version here: [Dressingnity](https://prakash4844.github.io/Dressingnity-Ecommerce-Website/)
@@ -45,17 +50,6 @@ This Version use all the technology of Static Site with PHP and SQLite for Backe
 <P align=center> 
     <img src="https://visitor-badge.laobi.icu/badge?page_id=Prakash4844.Prakash4844" alt="Prakash4844" />
 </p>
-
-
-
-
-Checkout Static version here: [Dressingnity](https://prakash4844.github.io/Dressingnity-Ecommerce-Website/)
-Static Site is built on HTML, CSS, Bootstrap, JS
-
-Checkout Login Support with Database version here: [Dressingnity](https://dressingnity.rf.gd/)
-
-This Version use all the technology of Static Site with PHP and SQLite for Backend.
-<h3  align=center> Dressingnity E-Commerce Static Website Sitemap </h1>
 
 
 
